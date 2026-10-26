@@ -1,0 +1,17 @@
+{
+  "name": "diagnostic-intelligence-lab",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Diagnostic Intelligence Lab — student research prototype on referable diabetic retinopathy screening interpretation. Educational; not a medical device.",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "e2e": "node tools/e2e.mjs",
+    "shots": "node tools/shots.mjs"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}

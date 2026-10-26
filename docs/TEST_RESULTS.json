@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-26T19:27:34.035Z",
+  "total": 35,
+  "passed": 35,
+  "results": [
+    {
+      "name": "all 17 routes render with no console errors or missing strings (en)",
+      "pass": true,
+      "ms": 20778
+    },
+    {
+      "name": "all 17 routes render with no console errors or missing strings (ar)",
+      "pass": true,
+      "ms": 18956
+    },
+    {
+      "name": "no horizontal overflow on any route at mobile width",
+      "pass": true,
+      "ms": 15176
+    },
+    {
+      "name": "no horizontal overflow on any route at tablet width",
+      "pass": true,
+      "ms": 14615
+    },
+    {
+      "name": "entry shows brand, students, school and the single product statement",
+      "pass": true,
+      "ms": 2499
+    },
+    {
+      "name": "3D eye renders (WebGL canvas painted) and scroll advances the guided scene",
+      "pass": true,
+      "ms": 9257
+    },
+    {
+      "name": "static fallback appears when WebGL is unavailable (?static) and keeps the CTA",
+      "pass": true,
+      "ms": 1893
+    },
+    {
+      "name": "Enter Diagnostic Lab: guided transition lands on the Workbench",
+      "pass": true,
+      "ms": 7334
+    },
+    {
+      "name": "reduced motion: no overlay animation, navigation is immediate",
+      "pass": true,
+      "ms": 5814
+    },
+    {
+      "name": "case selection: 16 synthetic cases, no reference labels leaked, measured quality shown",
+      "pass": true,
+      "ms": 9640
+    },
+    {
+      "name": "EvidenceLens is blind by default: reference layers locked, only anatomy guides available",
+      "pass": true,
+      "ms": 8923
+    },
+    {
+      "name": "Study Mode opens reference layers and marks the case practice-only",
+      "pass": true,
+      "ms": 3240
+    },
+    {
+      "name": "zoom (wheel, buttons, keys), pan (drag) and fit all change the view; HUD tracks zoom",
+      "pass": true,
+      "ms": 8696
+    },
+    {
+      "name": "annotation layers: toggle, opacity, lesion panel with source link, authorship statement (after Study Mode)",
+      "pass": true,
+      "ms": 5946
+    },
+    {
+      "name": "draggable before/after: annotated and green-channel modes; divider moves by drag and keyboard",
+      "pass": true,
+      "ms": 5047
+    },
+    {
+      "name": "Expert-reference vs model panel: model column says Not implemented; reference hidden until revealed",
+      "pass": true,
+      "ms": 2417
+    },
+    {
+      "name": "image-quality indicators are computed from pixels and flag the ungradable cases",
+      "pass": true,
+      "ms": 12779
+    },
+    {
+      "name": "duel blind-first flow: lock → model slot says not implemented → reference revealed → FN explained",
+      "pass": true,
+      "ms": 3339
+    },
+    {
+      "name": "duel outcomes classify correctly: TP, TN, FP and ungradable handling",
+      "pass": true,
+      "ms": 46199
+    },
+    {
+      "name": "duel record persists across reload and feeds learner statistics with intervals",
+      "pass": true,
+      "ms": 11586
+    },
+    {
+      "name": "opening reference layers first makes the later duel practice-only (excluded from the score)",
+      "pass": true,
+      "ms": 9756
+    },
+    {
+      "name": "stress test: live image change, measured verdict, explicit no-result pathway, no invented model confidence",
+      "pass": true,
+      "ms": 5675
+    },
+    {
+      "name": "stress test: lesion-contrast block stays locked until reference is open",
+      "pass": true,
+      "ms": 4691
+    },
+    {
+      "name": "clinician approval: gates, discrepancy acknowledgement, identifier guard, approval record, withdraw",
+      "pass": true,
+      "ms": 4168
+    },
+    {
+      "name": "CareBridge: letter only for approved refer dispositions; identifier guard blocks print/download",
+      "pass": true,
+      "ms": 5103
+    },
+    {
+      "name": "review queue: discrepancy flags and detail ledger",
+      "pass": true,
+      "ms": 2014
+    },
+    {
+      "name": "dashboard: erase-all clears local data after confirmation",
+      "pass": true,
+      "ms": 3366
+    },
+    {
+      "name": "lab status states plainly that no research model has been evaluated; protocol steps are honest",
+      "pass": true,
+      "ms": 1272
+    },
+    {
+      "name": "simulator is stamped as simulation and its matrix matches the library maths",
+      "pass": true,
+      "ms": 3930
+    },
+    {
+      "name": "held-out import: patient leakage blocks reporting",
+      "pass": true,
+      "ms": 2448
+    },
+    {
+      "name": "held-out import: displayed statistics equal an independent recomputation (threshold fixed on validation only)",
+      "pass": true,
+      "ms": 2312
+    },
+    {
+      "name": "dataset page: teaching set described as synthetic; candidate datasets flagged as not downloaded",
+      "pass": true,
+      "ms": 1507
+    },
+    {
+      "name": "Arabic: RTL layout, translated chrome, anatomy not mirrored, same caveats",
+      "pass": true,
+      "ms": 9118
+    },
+    {
+      "name": "language toggle switches live without losing the route",
+      "pass": true,
+      "ms": 3642
+    },
+    {
+      "name": "keyboard: skip link, focus-visible targets and More menu with Escape",
+      "pass": true,
+      "ms": 4721
+    }
+  ]
+}

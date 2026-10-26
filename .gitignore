@@ -1,0 +1,11 @@
+node_modules/
+.claude/
+.DS_Store
+Thumbs.db
+*.log
+# Real datasets (e.g. IDRiD) are never committed: licences require attribution and some forbid redistribution.
+data/real/
+data/raw/
+models/*.onnx
+models/*.pt
+.env

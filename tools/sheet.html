@@ -1,0 +1,26 @@
+<!doctype html><meta charset="utf-8"><title>contact sheet</title>
+<body style="margin:0;background:#111;color:#ddd;font:12px monospace">
+<div id="g" style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:6px"></div>
+<script type="module">
+import { allCases } from '/js/data/cases.js';
+import { paintFundus } from '/js/lib/fundus-paint.js';
+import { measureQuality, assessQuality } from '/js/lib/quality.js';
+const g = document.getElementById('g');
+const out = [];
+const t0 = performance.now();
+for (const c of allCases()) {
+  const t = performance.now();
+  const cv = paintFundus(c.plan, 700);
+  const dt = Math.round(performance.now() - t);
+  const id = cv.getContext('2d').getImageData(0, 0, 700, 700);
+  const m = measureQuality(id);
+  const a = assessQuality(m);
+  out.push({ id: c.id, ref: c.reference.icdr, dt, ...Object.fromEntries(Object.entries(m).map(([k, v]) => [k, +v.toFixed(2)])), level: a.level, reasons: a.reasons.map((r) => r.key + ':' + r.level).join(',') });
+  const w = document.createElement('div');
+  cv.style.cssText = 'width:100%;display:block';
+  w.append(cv, Object.assign(document.createElement('div'), { textContent: `${c.id} ${c.eye} grade=${c.reference.icdr} ${a.level} ${dt}ms` }));
+  g.append(w);
+}
+window.__out = out;
+document.title = 'done ' + Math.round(performance.now() - t0);
+</script>
