@@ -53,6 +53,7 @@ Blur/brightness/contrast with live preview and live measured quality — **Imple
 |---|---|
 | Unit tests (`node --test "tests/*.test.mjs"`) | **31 / 31 pass** — metrics (hand-checked tables, AUC, Wilson, thresholds, leakage), ICDR rule re-derivation for all 16 cases, outcome classification, learner statistics, i18n parity, identifier scanner |
 | Browser e2e (`node tools/e2e.mjs`, real Chrome) | **35 / 35 pass** — routes in EN and AR without console errors or missing strings; no horizontal overflow at 390 px and 820 px; WebGL actually paints; static fallback; reduced motion; zoom/pan/compare; blind→reveal flows; every duel outcome; persistence; stress test and no-result; approval gates and identifier guard; CareBridge; held-out import (leakage blocked; displayed statistics equal an independent recomputation); Arabic RTL and unmirrored anatomy; keyboard menu |
+| GitHub Actions (clean Ubuntu runner, software WebGL) | **31 / 31 unit and 35 / 35 browser pass** after making timing-sensitive checks poll instead of sleep (the first CI run was 32 / 35 for that reason alone) |
 | Raw record | `docs/TEST_RESULTS.json` |
 
 Bugs found *by* these tests and fixed: swapped "ungradable" outcome classification, SVG `class` arrays rendered as one token (broke every chart style), `null` rendered as the text "null" in four places, a mobile overflow on the Responsible-AI page, and a label column that ran under the entry copy.

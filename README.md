@@ -1,5 +1,7 @@
 # Diagnostic Intelligence Lab *(provisional title)*
 
+[![CI](https://github.com/MayMourad/diagnostic-intelligence-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/MayMourad/diagnostic-intelligence-lab/actions/workflows/ci.yml)
+
 A student research prototype on **how accurately a diagnosis is read from an image** — starting with *referable diabetic retinopathy* in retinal fundus images. Bilingual (English / العربية, RTL), runs entirely in the browser, no accounts, no uploads, no tracking.
 
 **Team:** May Ahmed Mourad (G12) · Shamsa Faris Almazrouei (G12) · Fatima Mohamed Almazrouei (G12) — ADNOC Schools, Madinat Zayed. A student project: no endorsement by ADNOC or ADNOC Schools is implied.
