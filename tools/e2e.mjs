@@ -52,8 +52,8 @@ for (const lang of ['en', 'ar']) {
     const p = await fresh(lang);
     for (const r of ROUTES) {
       await p.eval(`location.hash = ${JSON.stringify(r)}`);
-      await p.sleep(900);
-      ok(await p.eval("document.querySelector('#view').innerText.length > 40"), `route ${r} empty`);
+      await p.sleep(500);
+      await p.waitFor("document.querySelector('#view').innerText.length > 40", 30000, `route ${r} renders content`);
     }
     eq(await p.eval('document.documentElement.dir'), lang === 'ar' ? 'rtl' : 'ltr');
     noErrors(p, lang);
@@ -89,9 +89,9 @@ await check('3D eye renders (WebGL canvas painted) and scroll advances the guide
   await p.sleep(1500);
   await p.waitFor("document.querySelector('.eye-canvas').dataset.painted", 20000);
   eq(await p.eval("document.querySelector('.eye-canvas').dataset.painted"), 'true', 'WebGL canvas drew nothing');
-  await p.eval('window.scrollTo(0, 3000)'); await p.sleep(3500);
-  eq(await p.eval("document.querySelector('.entry-stage').dataset.step"), '3');
-  ok((await txt(p, '.eye-label.show .el-t')).length > 0, 'no anatomy label shown at step 3');
+  await p.eval('window.scrollTo(0, 3000)');
+  await p.waitFor("document.querySelector('.entry-stage').dataset.step === '3'", 20000, 'scene reaches step 3');
+  await p.waitFor("document.querySelector('.eye-label.show .el-t')", 40000, 'an anatomy label is shown once the section is open (slow software WebGL needs time to ease)');
   noErrors(p);
   return p;
 });
@@ -450,7 +450,7 @@ await check('keyboard: skip link, focus-visible targets and More menu with Escap
   return p;
 });
 
-writeFileSync('docs/TEST_RESULTS.json', JSON.stringify({ date: new Date().toISOString(), total: results.length, passed: results.filter((r) => r.pass).length, results }, null, 2));
+if (!only) writeFileSync('docs/TEST_RESULTS.json', JSON.stringify({ date: new Date().toISOString(), total: results.length, passed: results.filter((r) => r.pass).length, results }, null, 2));
 const failed = results.filter((r) => !r.pass);
 console.log(`\n${results.length - failed.length}/${results.length} passed`);
 browser.close(); srv.kill();
