@@ -191,7 +191,7 @@ await check('draggable before/after: annotated and green-channel modes; divider 
   ok((await p.eval("document.querySelector('.lens-overlay').style.clipPath")).includes('inset'), 'annotation clip');
   return p;
 });
-await check('Expert-reference vs model panel: model column says Not implemented; reference hidden until revealed', async () => {
+await check('Reference-vs-model panel: model column says Not implemented; reference hidden until revealed', async () => {
   const p = await fresh('en', { path: '#/workbench/C06/lens' });
   await p.waitFor("document.querySelector('#lt-compare')");
   await click(p, '#lt-compare'); await p.sleep(300);

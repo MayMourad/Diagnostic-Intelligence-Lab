@@ -1,10 +1,10 @@
 # Diagnostic Intelligence Lab *(provisional title)*
 
-[![CI](https://github.com/MayMourad/diagnostic-intelligence-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/MayMourad/diagnostic-intelligence-lab/actions/workflows/ci.yml)
+[![CI](https://github.com/MayMourad/Diagnostic-Intelligence-Lab/actions/workflows/ci.yml/badge.svg)](https://github.com/MayMourad/Diagnostic-Intelligence-Lab/actions/workflows/ci.yml)
 
 A student research prototype on **how accurately a diagnosis is read from an image** — starting with *referable diabetic retinopathy* in retinal fundus images. Bilingual (English / العربية, RTL), runs entirely in the browser, no accounts, no uploads, no tracking.
 
-**Live prototype:** <https://maymourad.github.io/diagnostic-intelligence-lab/> · **Slides:** [`presentation/Diagnostic-Intelligence-Lab.pptx`](presentation/Diagnostic-Intelligence-Lab.pptx)
+**Live prototype:** <https://maymourad.github.io/Diagnostic-Intelligence-Lab/> · **Slides:** [`presentation/Diagnostic-Intelligence-Lab.pptx`](presentation/Diagnostic-Intelligence-Lab.pptx)
 
 **Team:** May Ahmed Mourad (G12) · Shamsa Faris Almazrouei (G12) · Fatima Mohamed Almazrouei (G11) — ADNOC Schools, Madinat Zayed. A student project: no endorsement by ADNOC or ADNOC Schools is implied.
 
@@ -56,7 +56,7 @@ git clone <repo-url> && cd <repo>
 node tools/serve.mjs      # open http://127.0.0.1:4173
 ```
 
-The app is a static site (no build step, no dependencies) and is deployed with GitHub Pages from `main` / root (*Settings → Pages*). All asset paths are relative and routing uses the URL hash, so it works under a sub-path. After a deploy, check it with `node tools/live-check.mjs https://maymourad.github.io/diagnostic-intelligence-lab/`.
+The app is a static site (no build step, no dependencies) and is deployed with GitHub Pages from `main` / root (*Settings → Pages*). All asset paths are relative and routing uses the URL hash, so it works under a sub-path. After a deploy, check it with `node tools/live-check.mjs https://maymourad.github.io/Diagnostic-Intelligence-Lab/`.
 
 ## Renaming
 

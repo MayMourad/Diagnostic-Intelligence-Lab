@@ -8,7 +8,7 @@ import { deriveReference } from '../lib/fundus.js';
 
 register({
   en: {
-    'prov.model': 'Model-generated prediction', 'prov.reference': 'Expert reference label', 'prov.annotations': 'Reference lesion annotations', 'prov.clinician': 'Clinician interpretation', 'prov.disposition': 'Final clinician-approved disposition',
+    'prov.model': 'Model-generated prediction', 'prov.reference': 'Reference label (authored)', 'prov.annotations': 'Reference lesion annotations', 'prov.clinician': 'Clinician interpretation', 'prov.disposition': 'Final clinician-approved disposition',
     'prov.model.v': 'Not implemented — no prediction exists', 'prov.model.src': 'No trained weights, dataset or compute are present. Nothing here is simulated.',
     'prov.reference.src': 'Teaching set DIL-TS v0 · authored from the case’s own lesion list under the ICDR scale · not an independent expert panel',
     'prov.annotations.src': 'Drawn by code from the same lesion list that generated the image · never produced by an AI model',
@@ -26,7 +26,7 @@ register({
     'tier.synthetic': 'Synthetic teaching image',
   },
   ar: {
-    'prov.model': 'تنبؤ مولَّد من نموذج', 'prov.reference': 'التسمية المرجعية للخبراء', 'prov.annotations': 'التعليقات المرجعية على الآفات', 'prov.clinician': 'تفسير الطبيب', 'prov.disposition': 'القرار النهائي المعتمد من الطبيب',
+    'prov.model': 'تنبؤ مولَّد من نموذج', 'prov.reference': 'التسمية المرجعية (مؤلَّفة)', 'prov.annotations': 'التعليقات المرجعية على الآفات', 'prov.clinician': 'تفسير الطبيب', 'prov.disposition': 'القرار النهائي المعتمد من الطبيب',
     'prov.model.v': 'غير منفَّذ — لا يوجد تنبؤ', 'prov.model.src': 'لا توجد أوزان مدرَّبة ولا مجموعة بيانات ولا قدرة حوسبة. لا شيء هنا محاكى.',
     'prov.reference.src': 'مجموعة التعليم DIL-TS v0 · مؤلَّفة من قائمة آفات الحالة نفسها وفق مقياس ICDR · ليست لجنة خبراء مستقلة',
     'prov.annotations.src': 'مرسومة بالشيفرة من قائمة الآفات نفسها التي ولّدت الصورة · لم ينتجها نموذج ذكاء اصطناعي قط',

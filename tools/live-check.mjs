@@ -1,4 +1,4 @@
-// Smoke test against a deployed URL: node tools/live-check.mjs https://maymourad.github.io/diagnostic-intelligence-lab/
+// Smoke test against a deployed URL: node tools/live-check.mjs https://maymourad.github.io/Diagnostic-Intelligence-Lab/
 import { launch } from './cdp.mjs';
 const base = process.argv[2];
 if (!base) { console.error('usage: node tools/live-check.mjs <base-url>'); process.exit(2); }
