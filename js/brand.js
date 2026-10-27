@@ -12,7 +12,7 @@ export const BRAND = {
   students: [
     { name: 'May Ahmed Mourad', nameAr: 'مي أحمد مراد', grade: 'G12' },
     { name: 'Shamsa Faris Almazrouei', nameAr: 'شمسة فارس المزروعي', grade: 'G12' },
-    { name: 'Fatima Mohamed Almazrouei', nameAr: 'فاطمة محمد المزروعي', grade: 'G12' },
+    { name: 'Fatima Mohamed Almazrouei', nameAr: 'فاطمة محمد المزروعي', grade: 'G11' },
   ],
   version: '0.2.0',
 };

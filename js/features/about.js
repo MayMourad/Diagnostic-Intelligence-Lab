@@ -9,7 +9,7 @@ export const titleKey = 'nav.about';
 register({
   en: {
     'ab.kicker': 'Supporting · About & credits', 'ab.title': 'A student research prototype.',
-    'ab.lede': 'Built by three Grade 12 students to ask a simple question seriously: when a diagnosis is read from an image, how accurately — and how would we know?',
+    'ab.lede': 'Built by three high-school students (Grades 11 and 12) to ask a simple question seriously: when a diagnosis is read from an image, how accurately — and how would we know?',
     'ab.team': 'Team', 'ab.school': 'School', 'ab.school.note': 'ADNOC Schools — Madinat Zayed is the students’ school. This is a student project; no endorsement by ADNOC or ADNOC Schools is implied and no ADNOC branding is used.',
     'ab.title.t': 'Provisional title', 'ab.title.b': '“{name}” is a temporary project title. The platform is deliberately not named after one specialty so it can grow beyond retinal screening; the first research task is referable diabetic retinopathy.',
     'ab.rename.t': 'How to rename it', 'ab.rename.b': 'The name, school and student list live in one file, js/brand.js. The mark is a generic reticle-and-scale symbol with no text, so a new name needs no layout changes.',
@@ -21,7 +21,7 @@ register({
   },
   ar: {
     'ab.kicker': 'داعم · حول المشروع والفريق', 'ab.title': 'نموذج بحثي طلابي.',
-    'ab.lede': 'أعدّه ثلاثة من طلبة الصف الثاني عشر ليطرحن سؤالًا بسيطًا بجدية: حين يُقرأ تشخيص من صورة، فبأي دقة — وكيف سنعرف؟',
+    'ab.lede': 'أعدّه ثلاثة من طلبة الصفين الحادي عشر والثاني عشر ليطرحوا سؤالًا بسيطًا بجدية: حين يُقرأ تشخيص من صورة، فبأي دقة — وكيف سنعرف؟',
     'ab.team': 'الفريق', 'ab.school': 'المدرسة', 'ab.school.note': 'مدارس أدنوك — مدينة زايد هي مدرسة الطلبة. هذا مشروع طلابي؛ ولا يُقصد منه أي تأييد من أدنوك أو مدارس أدنوك ولا تُستخدم أي علامة تجارية لأدنوك.',
     'ab.title.t': 'العنوان المؤقت', 'ab.title.b': '«{name}» عنوان مؤقت للمشروع. لم تُسمَّ المنصة عمدًا باسم تخصص واحد لتنمو أبعد من فحص الشبكية؛ والمهمة البحثية الأولى هي اعتلال الشبكية السكري المستوجب للإحالة.',
     'ab.rename.t': 'كيف تغيّر الاسم', 'ab.rename.b': 'يعيش الاسم والمدرسة وقائمة الطلبة في ملف واحد هو js/brand.js. والشعار رمز عام من شبكة تصويب ومقياس بلا نص، فلا يحتاج الاسم الجديد إلى تغيير التخطيط.',

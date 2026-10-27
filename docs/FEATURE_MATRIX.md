@@ -7,7 +7,7 @@ Everything below was verified by running the app in headless Chrome (`tools/e2e.
 | Requirement | Status | Evidence |
 |---|---|---|
 | Retire "NourDx AI"; temporary title **Diagnostic Intelligence Lab** | Implemented | Single source `js/brand.js`; test asserts the old name appears nowhere in the DOM or source |
-| Student names (May Ahmed Mourad, Shamsa Faris Almazrouei, Fatima Mohamed Almazrouei — G12) and ADNOC Schools – Madinat Zayed | Implemented | Entry page, footer, About, referral-letter footer, deck; no ADNOC branding used, non-endorsement stated |
+| Student names (May Ahmed Mourad — G12, Shamsa Faris Almazrouei — G12, Fatima Mohamed Almazrouei — G11) and ADNOC Schools – Madinat Zayed | Implemented | Entry page, footer, About, referral-letter footer, deck; no ADNOC branding used, non-endorsement stated |
 | Specialty-independent, rename-safe identity | Implemented | Text-free reticle mark; name/school/students in one file |
 
 ## 2 · Diagnostic accuracy

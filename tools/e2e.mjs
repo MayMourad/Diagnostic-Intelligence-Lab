@@ -79,7 +79,7 @@ console.log('\nA — Immersive entry');
 await check('entry shows brand, students, school and the single product statement', async () => {
   const p = await fresh('en', { path: '#/' });
   const body = await p.eval('document.body.innerText');
-  for (const s of ['Diagnostic', 'Intelligence', 'May Ahmed Mourad', 'Shamsa Faris Almazrouei', 'Fatima Mohamed Almazrouei', 'ADNOC Schools', 'Provisional title']) ok(body.includes(s), `missing "${s}"`);
+  for (const s of ['Diagnostic', 'Intelligence', 'May Ahmed Mourad', 'Shamsa Faris Almazrouei', 'Fatima Mohamed Almazrouei', 'ADNOC Schools', 'Provisional title', 'G11']) ok(body.includes(s), `missing "${s}"`);
   ok(!/NourDx/i.test(await p.eval('document.documentElement.outerHTML')), 'old name still present in DOM');
   eq((await p.eval('document.title')).includes('Diagnostic Intelligence Lab'), true);
   return p;

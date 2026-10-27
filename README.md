@@ -6,7 +6,7 @@ A student research prototype on **how accurately a diagnosis is read from an ima
 
 **Live prototype:** <https://maymourad.github.io/diagnostic-intelligence-lab/> · **Slides:** [`presentation/Diagnostic-Intelligence-Lab.pptx`](presentation/Diagnostic-Intelligence-Lab.pptx)
 
-**Team:** May Ahmed Mourad (G12) · Shamsa Faris Almazrouei (G12) · Fatima Mohamed Almazrouei (G12) — ADNOC Schools, Madinat Zayed. A student project: no endorsement by ADNOC or ADNOC Schools is implied.
+**Team:** May Ahmed Mourad (G12) · Shamsa Faris Almazrouei (G12) · Fatima Mohamed Almazrouei (G11) — ADNOC Schools, Madinat Zayed. A student project: no endorsement by ADNOC or ADNOC Schools is implied.
 
 > **Not a medical device. Not clinical advice.** All images are synthetic teaching illustrations. **No research model is implemented**, so nothing in the app is a model prediction.
 
