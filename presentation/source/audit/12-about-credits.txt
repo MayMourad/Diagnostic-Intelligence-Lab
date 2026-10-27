@@ -1,0 +1,54 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/about
+Captured: 2026-10-27T14:34:07.466Z
+Console errors: 0
+
+SUPPORTING · ABOUT & CREDITS
+
+A student research prototype.
+
+Built by three high-school students (Grades 11 and 12) to ask a simple question seriously: when a diagnosis is read from an image, how accurately — and how would we know?
+
+Team
+May Ahmed Mourad
+G12
+Shamsa Faris Almazrouei
+G12
+Fatima Mohamed Almazrouei
+G11
+School
+
+ADNOC Schools — Madinat Zayed
+
+ADNOC Schools — Madinat Zayed is the students’ school. This is a student project; no endorsement by ADNOC or ADNOC Schools is implied and no ADNOC branding is used.
+
+Provisional title
+
+“Diagnostic Intelligence Lab” is a temporary project title. The platform is deliberately not named after one specialty so it can grow beyond retinal screening; the first research task is referable diabetic retinopathy.
+
+How to rename it
+
+The name, school and student list live in one file, js/brand.js. The mark is a generic reticle-and-scale symbol with no text, so a new name needs no layout changes.
+
+Method in one paragraph
+
+Sixteen synthetic fundus illustrations are generated deterministically from authored lesion lists. Each reference label is derived from its lesion list under the ICDR scale and re-checked by an automated test. Visitors read cases blind, lock an interpretation, then see the reference. Accuracy statistics are exact and unit-tested; they can be computed on held-out predictions the user supplies, and otherwise only an explicitly labelled simulator is shown.
+
+The 3D eye
+
+An original lightweight WebGL model written for this project (no third-party scene or library), with a static SVG fallback. Anatomy shown: cornea, iris, pupil, lens, vitreous body, sclera, choroid, retina, macula/fovea, optic disc and optic nerve; the optic disc sits nasal to the macula. It is an orientation aid, not clinical evidence, and not to scale.
+
+Sources
+Wilkinson CP, et al. Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales. Ophthalmology 2003;110(9):1677–82.
+ICDR 2003
+Early Treatment Diabetic Retinopathy Study Research Group. Grading diabetic retinopathy from stereoscopic color fundus photographs — an extension of the modified Airlie House classification (ETDRS Report 10). Ophthalmology 1991.
+ETDRS Report 10
+
+ETDRS and ICDR define the grading criteria used for the reference rules. Links were checked on 26 October 2026; please verify before citing.
+
+Typefaces
+
+Newsreader, Instrument Sans, IBM Plex Mono, IBM Plex Sans Arabic and Noto Naskh Arabic, loaded from Google Fonts under the SIL Open Font License. This is the only external request the app makes.
+
+Accessibility
+
+Keyboard-operable viewer (+ − 0 arrows), visible focus, reduced-motion support, text alternatives, RTL layout. Not yet audited by an accessibility specialist.

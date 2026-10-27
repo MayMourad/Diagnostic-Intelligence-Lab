@@ -1,0 +1,43 @@
+{
+  "case": "C06",
+  "original": {
+    "metrics": {
+      "sharpness": 3.4826639737507534,
+      "brightness": 76.58182058562939,
+      "contrast": 32.57867650927683,
+      "evenness": 0.9582506646996609,
+      "coverage": 1
+    },
+    "level": "adequate"
+  },
+  "blur7": {
+    "metrics": {
+      "sharpness": 0.9849457701781744,
+      "brightness": 76.54420465763303,
+      "contrast": 31.833154167675616,
+      "evenness": 0.9583347712280599,
+      "coverage": 1
+    },
+    "level": "insufficient"
+  },
+  "blur14": {
+    "metrics": {
+      "sharpness": 0.9208624169595989,
+      "brightness": 76.27432170607939,
+      "contrast": 31.482995074351166,
+      "evenness": 0.9588132046092787,
+      "coverage": 1
+    },
+    "level": "insufficient"
+  },
+  "washed": {
+    "metrics": {
+      "sharpness": 1.9092136173997813,
+      "brightness": 171.1183793404858,
+      "contrast": 17.869335562963126,
+      "evenness": 0.9897083663177723,
+      "coverage": 1
+    },
+    "level": "borderline"
+  }
+}

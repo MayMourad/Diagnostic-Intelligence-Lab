@@ -1,0 +1,67 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/dashboard
+Captured: 2026-10-27T14:33:49.944Z
+Console errors: 0
+
+SUPPORTING · DASHBOARD
+
+Your work in this browser.
+
+Everything here is computed from records stored locally on this device. There are no patients, no server and no shared data.
+
+DUELS LOCKED
+0
+of 16 cases
+PRACTICE-ONLY
+0
+APPROVED DISPOSITIONS
+0
+REFERRAL LETTERS SAVED
+0
+Educational performance
+EDUCATIONAL
+CASES SCORED
+0
+REFERRAL DECISION CORRECT
+—
+SENSITIVITY (REFERABLE FOUND)
+—
+n=0
+SPECIFICITY (NON-REFERABLE CLEARED)
+—
+n=0
+EXACT DR LEVEL
+—
+FALSE NEGATIVES
+0
+Educational scoring on a small synthetic set — not validated clinical performance.
+Case ledger
+CASE	DUEL	YOUR DUEL READING	DISPOSITION
+C01 OD	—	—	—
+C02 OS	—	—	—
+C03 OD	—	—	—
+C04 OS	—	—	—
+C05 OD	—	—	—
+C06 OS	—	—	—
+C07 OD	—	—	—
+C08 OS	—	—	—
+C09 OD	—	—	—
+C10 OS	—	—	—
+C11 OD	—	—	—
+C12 OD	—	—	—
+C13 OS	—	—	—
+C14 OD	—	—	—
+C15 OS	—	—	—
+C16 OS	—	—	—
+Open Workbench
+Audit trail
+
+Newest first. Local only.
+
+No events yet.
+
+Privacy & data
+
+Records live in this browser’s local storage. Nothing is uploaded. You can export or erase them.
+
+Export my records (JSON)
+Erase all local data

@@ -1,0 +1,50 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/lab/evaluate
+Captured: 2026-10-27T14:33:29.095Z
+Console errors: 0
+
+C — ACCURACY LABORATORY
+
+How accurate is the reading — measured, not claimed.
+
+A research workspace for evaluating diagnostic accuracy. It computes exact statistics from held-out predictions you provide, and never mixes them with simulations or with your own Duel record.
+
+REAL HELD-OUT PREDICTIONS (YOUR FILE)
+EDUCATIONAL SIMULATION (SYNTHETIC)
+YOUR DUEL RECORD (EDUCATIONAL)
+01
+Evaluation status
+02
+Evaluate
+03
+Thresholds
+04
+Error cases
+05
+Simulator
+06
+Dataset & limits
+Evaluate held-out predictions
+
+Load a CSV or JSON file of model scores on images the model never saw in training. The app fixes the threshold on the validation partition and reports the test partition.
+
+Drop a .csv or .json file here, or choose one
+Choose file
+
+Expected columns
+
+id, patient_id, split (train | val | test), reference (1 = referable, 0 = not), score (0–1, higher = more likely referable).
+
+Download blank template
+PROVENANCE YOU DECLARE
+MODEL (NAME, ARCHITECTURE, VERSION)
+DATASET (NAME, LICENCE)
+HOW THE SPLIT WAS MADE
+
+Self-reported — this app cannot verify it.
+
+THRESHOLD RULE (APPLIED ON VALIDATION DATA)
+Maximise sensitivity + specificity − 1
+Highest specificity with sensitivity ≥ target
+REAL HELD-OUT PREDICTIONS (YOUR FILE)
+
+No evaluation loaded.

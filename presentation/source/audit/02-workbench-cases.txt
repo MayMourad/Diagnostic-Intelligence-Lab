@@ -1,0 +1,97 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/workbench
+Captured: 2026-10-27T14:32:53.447Z
+Console errors: 0
+
+B — DIAGNOSTIC WORKBENCH
+
+Sixteen cases. No labels.
+01
+Case selection
+Pick a case. Labels stay hidden.
+02
+EvidenceLens
+Zoom, layers, compare
+03
+Diagnostic Duel
+Read, lock, reveal
+04
+Quality & uncertainty
+Measured quality, stress test
+05
+Clinician approval
+Interpret, approve, refer
+
+Each case is a synthetic retinal illustration. Choose one and read it before anything about it is revealed. Reference labels and annotations unlock only after you lock an interpretation.
+
+Start the next unattempted case
+All
+Not attempted
+Attempted
+My errors
+
+Thumbnails show the measured image quality (from pixels) — not a diagnosis.
+
+C01
+OD
+ADEQUATE
+UNSEEN
+C02
+OS
+ADEQUATE
+UNSEEN
+C03
+OD
+ADEQUATE
+UNSEEN
+C04
+OS
+ADEQUATE
+UNSEEN
+C05
+OD
+ADEQUATE
+UNSEEN
+C06
+OS
+ADEQUATE
+UNSEEN
+C07
+OD
+ADEQUATE
+UNSEEN
+C08
+OS
+…
+UNSEEN
+C09
+OD
+…
+UNSEEN
+C10
+OS
+…
+UNSEEN
+C11
+OD
+…
+UNSEEN
+C12
+OD
+…
+UNSEEN
+C13
+OS
+…
+UNSEEN
+C14
+OD
+…
+UNSEEN
+C15
+OS
+…
+UNSEEN
+C16
+OS
+…
+UNSEEN

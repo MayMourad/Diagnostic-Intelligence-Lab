@@ -1,0 +1,35 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/lab/errors
+Captured: 2026-10-27T14:33:38.446Z
+Console errors: 0
+
+C — ACCURACY LABORATORY
+
+How accurate is the reading — measured, not claimed.
+
+A research workspace for evaluating diagnostic accuracy. It computes exact statistics from held-out predictions you provide, and never mixes them with simulations or with your own Duel record.
+
+REAL HELD-OUT PREDICTIONS (YOUR FILE)
+EDUCATIONAL SIMULATION (SYNTHETIC)
+YOUR DUEL RECORD (EDUCATIONAL)
+01
+Evaluation status
+02
+Evaluate
+03
+Thresholds
+04
+Error cases
+05
+Simulator
+06
+Dataset & limits
+Error-case inspection
+HELD-OUT MODEL ERRORS
+
+No held-out evaluation loaded, so there are no model errors to inspect. (None are invented.)
+
+YOUR DUEL ERRORS (EDUCATIONAL)
+
+These compare YOU with the authored reference. They are not model errors.
+
+No errors yet — or no completed Duel cases. Complete cases in the Diagnostic Workbench.

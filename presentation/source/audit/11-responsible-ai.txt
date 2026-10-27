@@ -1,0 +1,58 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/responsible
+Captured: 2026-10-27T14:34:03.741Z
+Console errors: 0
+
+SUPPORTING · RESPONSIBLE AI
+
+What this is for — and what it must never be used for.
+
+A diagnostic tool is judged by its worst errors, not its best demo. This page states the intended use, the limits, the safeguards built into this prototype, and the evidence that would be needed before any clinical integration.
+
+Intended use
+
+Education and research method demonstration by students: how to read retinal images for referable diabetic retinopathy, how diagnostic accuracy is measured, and why errors matter.
+
+Not intended for
+Diagnosing, screening or advising any real person.
+Use with real patient images or identifiers — upload is deliberately absent.
+Claiming that AI improves clinician accuracy: this project provides no such evidence.
+Any regulatory, clinical-governance or commercial purpose.
+Honest status
+Research model
+NOT IMPLEMENTED
+Evaluation on real held-out data
+NOT PERFORMED — ENGINE READY FOR A FILE YOU SUPPLY
+Case images
+SYNTHETIC TEACHING ILLUSTRATIONS
+Reference labels
+AUTHORED FROM EACH CASE’S LESION LIST (ICDR); NOT AN EXPERT PANEL
+Duel score
+EDUCATIONAL ONLY; NOT VALIDATED PERFORMANCE
+Safeguards built in
+Human in the loop: the disposition is chosen and approved by a person; nothing is auto-decided.
+Blind-first Duel: your reading is locked before any reference is shown, and practice-only cases are excluded from your score.
+Five-way provenance: model output, reference label, reference annotations, clinician interpretation and final disposition are never merged.
+No fabrication: no invented model confidence, no simulated scanning animation, no pre-baked performance numbers; empty states say “not implemented”.
+No-result pathway: unsuitable images produce no grade and a recapture / in-person action.
+Leakage control: held-out files are refused when a patient spans partitions; thresholds are chosen on validation data only.
+Privacy by design: no accounts, analytics or uploads; local-only records; identifier scanning on every free-text field that can leave the page.
+Bilingual clarity: Arabic and English carry the same caveats. The Arabic text has not yet been proof-read by a clinical translator.
+Risks and how this prototype addresses them
+RISK	MITIGATION HERE	WHAT WOULD STILL BE NEEDED
+False negatives	Duel highlights FN consequences; the Lab reports FN counts and lists them.	Prospective sensitivity target with confidence intervals; safety-net re-screening.
+Automation bias	No score is ever shown to anchor the reader; Duel is blind first.	A controlled reader study — not assumed.
+Dataset and population bias	Dataset page lists pigmentation, camera and prevalence shift; fundus pigmentation varies in the teaching set.	Subgroup performance on representative local data.
+Over-claiming	Provenance chips on every number; simulator stamped “simulation”.	Independent review of every public claim.
+Privacy	Local-only; identifier scanner; synthetic cases.	Health-data law compliance, governance and security review before any real data.
+Poor image quality	Measured quality indicators and a no-result pathway.	Validated gradability criteria and a trained model that can abstain.
+Responsible clinical integration — the path
+01
+Retrospective validation on a locally representative, patient-split dataset with a pre-registered threshold.
+02
+Silent prospective evaluation: the model runs, no one sees it, errors are logged.
+03
+Assisted reading in a controlled study with clinicians, measuring accuracy, time and automation bias.
+04
+Regulated deployment with monitoring for drift, subgroup performance and incident review.
+
+This prototype stops before step 1.

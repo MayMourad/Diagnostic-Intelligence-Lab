@@ -1,0 +1,85 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/workbench/C06/approval
+Captured: 2026-10-27T14:33:18.719Z
+Console errors: 0
+
+B — DIAGNOSTIC WORKBENCH
+
+Clinician approval
+Switch case
+Case C01 · OD
+Case C02 · OS
+Case C03 · OD
+Case C04 · OS
+Case C05 · OD
+Case C06 · OS
+Case C07 · OD
+Case C08 · OS
+Case C09 · OD
+Case C10 · OS
+Case C11 · OD
+Case C12 · OD
+Case C13 · OS
+Case C14 · OD
+Case C15 · OS
+Case C16 · OS
+UNSEEN
+01
+Case selection
+Pick a case. Labels stay hidden.
+02
+EvidenceLens
+Zoom, layers, compare
+03
+Diagnostic Duel
+Read, lock, reveal
+04
+Quality & uncertainty
+Measured quality, stress test
+05
+Clinician approval
+Interpret, approve, refer
+
+You are playing the clinician. Record an interpretation, choose a disposition and approve it. Nothing here is a medical record; the case is synthetic.
+
+The reference label for this case is still hidden. That is fine: a clinician decides without it.
+REVIEWER (PSEUDONYM ONLY)
+Use a pseudonym or role — never a real patient or staff identity.
+CLINICIAN INTERPRETATION
+Gradable
+Ungradable
+INTERPRETATION NOTES (OPTIONAL)
+Clinical reasoning only. Identifiers are blocked.
+DISPOSITION
+Routine re-screening (12 months)
+Refer to ophthalmology — non-urgent
+Refer to ophthalmology — urgent
+Recapture image / in-person examination
+
+Illustrative ICDR-linked management — not clinical guidance; follow your local pathway: none/mild → re-screen in about 12 months; moderate → re-screen sooner or refer; severe/proliferative or macular oedema → refer promptly.
+
+RATIONALE
+Why this disposition? Identifiers are blocked.
+There is no model suggestion to accept or override. The disposition is yours.
+Approve disposition
+
+Record an interpretation first.
+
+PROVENANCE LEDGER
+
+Five different things that are easy to confuse. Each has its own source.
+
+MODEL-GENERATED PREDICTION
+Not implemented — no prediction exists
+No trained weights, dataset or compute are present. Nothing here is simulated.
+REFERENCE LABEL (AUTHORED)
+Hidden until you lock an interpretation (or enter Study Mode)
+Teaching set DIL-TS v0 · authored from the case’s own lesion list under the ICDR scale · not an independent expert panel
+REFERENCE LESION ANNOTATIONS
+Hidden until you lock an interpretation (or enter Study Mode)
+Drawn by code from the same lesion list that generated the image · never produced by an AI model
+CLINICIAN INTERPRETATION
+Not recorded
+Entered by the reviewer in the approval step (simulated clinician role)
+FINAL CLINICIAN-APPROVED DISPOSITION
+Pending approval
+Recorded only when a reviewer approves; may differ from every other row

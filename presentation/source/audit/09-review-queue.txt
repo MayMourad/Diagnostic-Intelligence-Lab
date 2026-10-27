@@ -1,0 +1,68 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/review
+Captured: 2026-10-27T14:33:54.258Z
+Console errors: 0
+
+SUPPORTING · REVIEW QUEUE
+
+Reviewer tools.
+
+Compare interpretations with the reference, spot discrepancies and see what has been approved. Every row keeps model, reference, annotation, clinician and disposition separate.
+
+All
+Discrepancies
+Awaiting approval
+Approved
+Export review table (CSV)
+CASE	DUEL READING	CLINICIAN INTERPRETATION	REFERENCE	FLAGS	DISPOSITION
+C01 OD	—	—	hidden	
+—
+	—
+C02 OS	—	—	hidden	
+—
+	—
+C03 OD	—	—	hidden	
+—
+	—
+C04 OS	—	—	hidden	
+—
+	—
+C05 OD	—	—	hidden	
+—
+	—
+C06 OS	—	—	hidden	
+—
+	—
+C07 OD	—	—	hidden	
+—
+	—
+C08 OS	—	—	hidden	
+—
+	—
+C09 OD	—	—	hidden	
+—
+	—
+C10 OS	—	—	hidden	
+—
+	—
+C11 OD	—	—	hidden	
+—
+	—
+C12 OD	—	—	hidden	
+—
+	—
+C13 OS	—	—	hidden	
+—
+	—
+C14 OD	—	—	hidden	
+—
+	—
+C15 OS	—	—	hidden	
+—
+	—
+C16 OS	—	—	hidden	
+—
+	—
+
+The reference label is shown only for cases where it has already been revealed to you (a locked Duel or Study Mode).
+
+Select a row to see its provenance ledger.

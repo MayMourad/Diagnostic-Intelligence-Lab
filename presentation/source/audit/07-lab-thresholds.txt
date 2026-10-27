@@ -1,0 +1,31 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/lab/thresholds
+Captured: 2026-10-27T14:33:32.453Z
+Console errors: 0
+
+C — ACCURACY LABORATORY
+
+How accurate is the reading — measured, not claimed.
+
+A research workspace for evaluating diagnostic accuracy. It computes exact statistics from held-out predictions you provide, and never mixes them with simulations or with your own Duel record.
+
+REAL HELD-OUT PREDICTIONS (YOUR FILE)
+EDUCATIONAL SIMULATION (SYNTHETIC)
+YOUR DUEL RECORD (EDUCATIONAL)
+01
+Evaluation status
+02
+Evaluate
+03
+Thresholds
+04
+Error cases
+05
+Simulator
+06
+Dataset & limits
+Threshold exploration
+
+Load held-out predictions in the Evaluate tab to explore real thresholds — or use the simulator to learn the principles.
+
+Evaluate
+Simulator

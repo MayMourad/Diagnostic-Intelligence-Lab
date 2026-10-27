@@ -1,0 +1,109 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/lab/simulator
+Captured: 2026-10-27T14:33:41.838Z
+Console errors: 0
+
+C — ACCURACY LABORATORY
+
+How accurate is the reading — measured, not claimed.
+
+A research workspace for evaluating diagnostic accuracy. It computes exact statistics from held-out predictions you provide, and never mixes them with simulations or with your own Duel record.
+
+REAL HELD-OUT PREDICTIONS (YOUR FILE)
+EDUCATIONAL SIMULATION (SYNTHETIC)
+YOUR DUEL RECORD (EDUCATIONAL)
+01
+Evaluation status
+02
+Evaluate
+03
+Thresholds
+04
+Error cases
+05
+Simulator
+06
+Dataset & limits
+EDUCATIONAL SIMULATION
+
+Scores are random draws from two bell curves. This is not a model, not a dataset and not a finding. Use it to see how prevalence, separation, threshold and sample size shape the statistics.
+
+PREVALENCE OF REFERABLE DISEASE 20%
+NUMBER OF SIMULATED CASES 400
+SEPARATION BETWEEN CLASSES (D′) 1.8
+DECISION THRESHOLD 0.50
+Draw a new sample
+
+Sample #1
+
+Raising the threshold trades sensitivity for specificity — it never improves both.
+PPV depends on prevalence; sensitivity and specificity do not.
+Small samples give wide intervals: a result from 30 cases says little.
+PREDICTED REFERABLE
+PREDICTED NON-REFERABLE
+REFERENCE: REFERABLE
+49
+TP · TRUE POSITIVE
+12.3%
+20
+FN · FALSE NEGATIVE
+5.0%
+REFERENCE: NON-REFERABLE
+58
+FP · FALSE POSITIVE
+14.5%
+273
+TN · TRUE NEGATIVE
+68.3%
+Sensitivity
+71.0%
+59.4%–80.4% · n=69
+Specificity
+82.5%
+78.0%–86.2% · n=331
+PPV
+45.8%
+NPV
+93.2%
+Accuracy
+80.5%
+Balanced accuracy
+76.7%
+0.0
+0.0
+0.3
+0.3
+0.5
+0.5
+0.8
+0.8
+1.0
+1.0
+1 − Specificity
+Sensitivity
+SIMULATION
+ROC
+ROC CURVE
+· AUC 0.867
+0.0
+0.5
+1.0
+SIMULATION
+DIST
+SCORE DISTRIBUTION
+REFERENCE: NON-REFERABLE
+REFERENCE: REFERABLE
+
+WHY SCREENING PPV IS LOW
+
+Same sensitivity and specificity, different prevalence. When disease is rare, most positives are false alarms.
+
+1%
+At prevalence 1%: PPV 3.9%, NPV 99.6%
+5%
+At prevalence 5%: PPV 17.6%, NPV 98.2%
+10%
+At prevalence 10%: PPV 31.0%, NPV 96.2%
+20%
+At prevalence 20%: PPV 50.3%, NPV 91.9%
+40%
+At prevalence 40%: PPV 73.0%, NPV 81.0%

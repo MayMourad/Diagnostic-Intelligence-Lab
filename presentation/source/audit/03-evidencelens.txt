@@ -1,0 +1,73 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/workbench/C06/lens
+Captured: 2026-10-27T14:33:01.553Z
+Console errors: 0
+
+B — DIAGNOSTIC WORKBENCH
+
+EvidenceLens
+Switch case
+Case C01 · OD
+Case C02 · OS
+Case C03 · OD
+Case C04 · OS
+Case C05 · OD
+Case C06 · OS
+Case C07 · OD
+Case C08 · OS
+Case C09 · OD
+Case C10 · OS
+Case C11 · OD
+Case C12 · OD
+Case C13 · OS
+Case C14 · OD
+Case C15 · OS
+Case C16 · OS
+UNSEEN
+01
+Case selection
+Pick a case. Labels stay hidden.
+02
+EvidenceLens
+Zoom, layers, compare
+03
+Diagnostic Duel
+Read, lock, reveal
+04
+Quality & uncertainty
+Measured quality, stress test
+05
+Clinician approval
+Interpret, approve, refer
+1 DD
+MACULA
+DISC
+100%
+1 DD
+FIG. 06
+SYNTHETIC TEACHING ILLUSTRATION · C06 · LEFT EYE (OS)
+
+Scroll or pinch to zoom · drag to pan · +/− keys · 0 to fit · click an annotation for details
+
+01
+Layers
+02
+Finding
+03
+Quality
+04
+Reference vs model
+Anatomy guides
+Optic disc outline, macular centre, 1 disc-diameter (DD) macular zone, quadrant axes. Orientation only.
+Reference layers are locked
+
+To keep the Diagnostic Duel honest, annotations and the reference label stay hidden until you lock an interpretation. You can open them now in Study Mode — that case then counts as practice only.
+
+Enter Study Mode (practice only)
+Go to Diagnostic Duel
+OVERLAY OPACITY
+DRAGGABLE COMPARISON
+Off
+Plain | annotated
+Colour | green-channel enhanced
+
+Green-channel contrast stretch: a standard preprocessing view. It changes display only; nothing is annotated by it.

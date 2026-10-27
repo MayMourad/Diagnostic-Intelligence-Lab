@@ -1,0 +1,86 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/
+Captured: 2026-10-27T14:32:48.700Z
+Console errors: 0
+
+Cornea
+Iris & pupil
+Lens
+Vitreous body
+Sclera
+Retina
+Optic nerve
+Macula · fovea
+Centre of sharpest vision
+Optic disc
+Where the optic nerve leaves the eye
+Retina
+
+A — IMMERSIVE ENTRY · STUDENT RESEARCH PROTOTYPE
+
+Diagnostic
+Intelligence
+Lab
+
+A research workbench for testing how accurately a diagnosis is read — starting with referable diabetic retinopathy in retinal fundus images.
+
+Enter Diagnostic Lab
+Go to Accuracy Laboratory
+
+Provisional title — a final name has not been chosen.
+
+01 — THE EYE
+
+Light enters here.
+
+A human right eye, drawn schematically and not to scale. Move the pointer to turn it; scroll to look inside.
+
+02 — A SECTION THROUGH THE GLOBE
+
+Cornea, pupil, lens — then the retina.
+
+Light passes the cornea, pupil and lens, crosses the clear vitreous body and falls on the retina, the light-sensitive lining at the back.
+
+03 — THE RETINA
+
+Where measurement begins.
+
+A fundus photograph is a picture of this lining. Reading it correctly is the diagnostic problem this lab measures, case by case, against a reference label.
+
+01
+02
+03
+STUDENT PROJECT
+May Ahmed MouradG12
+Shamsa Faris AlmazroueiG12
+Fatima Mohamed AlmazroueiG11
+ADNOC Schools — Madinat Zayed
+
+Original WebGL model · right eye, axial section · nasal side right
+
+SCROLL
+
+THREE ENVIRONMENTS, ONE QUESTION
+
+How accurate is the reading?
+A
+Immersive Entry
+This page: one anatomical scene that leads into the retina.
+OPEN
+B
+Diagnostic Workbench
+Case selection → EvidenceLens → Diagnostic Duel → quality & uncertainty → clinician approval.
+OPEN
+C
+Accuracy Laboratory
+Confusion matrix, sensitivity and specificity, threshold exploration, error analysis and research limits.
+OPEN
+
+IMPLEMENTATION LEDGER
+
+What is real here — and what is not
+CAPABILITY	STATUS	DETAIL
+Research inference model	NOT IMPLEMENTED	No trained weights, dataset or compute are present. Nothing on screen is a model prediction.
+Cases	SYNTHETIC	16 teaching illustrations drawn by code, with authored reference labels derived from their own lesion lists.
+Diagnostic Duel	HUMAN VS REFERENCE	Your reading is compared with the reference label. It is educational scoring, not validated clinical performance.
+Accuracy Laboratory	READY FOR REAL DATA	Exact statistics on a held-out predictions file you supply; clearly labelled simulator otherwise.
+3D eye	SCHEMATIC	Original lightweight WebGL scene with a static fallback. Not evidence.

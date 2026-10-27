@@ -1,0 +1,7906 @@
+{
+ "width": 960,
+ "height": 540,
+ "slides": [
+  {
+   "bg": "0A1A2C",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-1",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "AL DHAFRA HEALTH FORUM · ACCURATE DIAGNOSIS — التشخيص الدقيق"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "4A9A92"
+    },
+    {
+     "type": "text",
+     "name": "txt-2",
+     "x": 56,
+     "y": 78,
+     "w": 470,
+     "h": 250,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Diagnostic"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Intelligence"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Lab",
+         "italic": 1,
+         "color": "8FD0C8"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 62,
+     "color": "F7F2E8",
+     "lineSpacing": 0.9
+    },
+    {
+     "type": "text",
+     "name": "txt-3",
+     "x": 56,
+     "y": 330,
+     "w": 440,
+     "h": 70,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "“Before we trust a diagnosis, we must understand how it was reached.”"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 19,
+     "color": "C9CFD6",
+     "italic": 1,
+     "lineSpacing": 1.05
+    },
+    {
+     "type": "line",
+     "name": "rule-4",
+     "x1": 56,
+     "y1": 408,
+     "x2": 116,
+     "y2": 408,
+     "color": "4A9A92",
+     "weight": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-5",
+     "x": 56,
+     "y": 418,
+     "w": 440,
+     "h": 78,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "May Ahmed Mourad",
+         "bold": 1
+        },
+        {
+         "t": "  ·  Grade 12"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Shamsa Faris Almazrouei",
+         "bold": 1
+        },
+        {
+         "t": "  ·  Grade 12"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Fatima Mohamed Almazrouei",
+         "bold": 1
+        },
+        {
+         "t": "  ·  Grade 11"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 14,
+     "color": "F7F2E8",
+     "spaceAfter": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-6",
+     "x": 56,
+     "y": 494,
+     "w": 440,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ADNOC Schools — Madinat Zayed"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "8FD0C8"
+    },
+    {
+     "type": "img",
+     "name": "pic-7",
+     "path": "presentation/source/assets/eye-intact.png",
+     "x": 500,
+     "y": 20,
+     "w": 430,
+     "hmax": 500,
+     "alt": "Original three-dimensional model of a human right eye from the prototype entry page: sclera, cornea and iris in studio lighting on a deep navy background.",
+     "border": "234A73"
+    },
+    {
+     "type": "text",
+     "name": "txt-8",
+     "x": 500,
+     "y": 520,
+     "w": 430,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "FIG. 01 · original WebGL eye · schematic, not to scale"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    }
+   ],
+   "notes": "SPEAKER: May Ahmed Mourad (Grade 12) · target 30 s · slide 1/12\nGood morning. We are May, Shamsa and Fatima, from ADNOC Schools, Madinat Zayed, and this is Diagnostic Intelligence Lab, our entry in the Accurate Diagnosis category. Before we trust a diagnosis, we must understand how it was reached. Ours is a student research prototype that asks a harder question than “can AI diagnose?”: when a diagnosis is read from an image, how accurately is it read, and how would anyone know? The eye behind us is a three-dimensional model we built ourselves. A schematic, not a patient."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-9",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "01 · THE PROBLEM"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-10",
+     "x": 56,
+     "y": 54,
+     "w": 500,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "A prediction is not proof."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 40,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-11",
+     "x": 56,
+     "y": 128,
+     "w": 360,
+     "h": 140,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "The challenge is not producing a diagnostic label."
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "It is establishing whether that label can be trusted.",
+         "bold": 1,
+         "color": "0A1A2C"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 17,
+     "color": "3B4A5C",
+     "spaceAfter": 10
+    },
+    {
+     "type": "line",
+     "name": "rule-12",
+     "x1": 668,
+     "y1": 186,
+     "x2": 668,
+     "y2": 121.44,
+     "color": "CFC6B3",
+     "weight": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-13",
+     "x": 661,
+     "y": 105.44,
+     "w": 14,
+     "h": 14,
+     "fill": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-14",
+     "x": 573,
+     "y": 72.44,
+     "w": 190,
+     "h": 36,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "EVIDENCE",
+         "font": "Consolas",
+         "size": 11,
+         "color": "2A665F"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "What is actually visible",
+         "size": 12,
+         "color": "3B4A5C"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "align": 2,
+     "spaceAfter": 0
+    },
+    {
+     "type": "line",
+     "name": "rule-15",
+     "x1": 707.8371685740842,
+     "y1": 209,
+     "x2": 765.8608706276416,
+     "y2": 176.72,
+     "color": "CFC6B3",
+     "weight": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-16",
+     "x": 766.6550992617015,
+     "y": 165.22,
+     "w": 14,
+     "h": 14,
+     "fill": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-17",
+     "x": 787.6550992617015,
+     "y": 158.22,
+     "w": 150,
+     "h": 36,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "IMAGE QUALITY",
+         "font": "Consolas",
+         "size": 11,
+         "color": "2A665F"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Blur, light, field",
+         "size": 12,
+         "color": "3B4A5C"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "align": 1,
+     "spaceAfter": 0
+    },
+    {
+     "type": "line",
+     "name": "rule-18",
+     "x1": 707.8371685740842,
+     "y1": 255,
+     "x2": 765.8608706276416,
+     "y2": 287.28,
+     "color": "CFC6B3",
+     "weight": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-19",
+     "x": 766.6550992617015,
+     "y": 284.78,
+     "w": 14,
+     "h": 14,
+     "fill": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-20",
+     "x": 787.6550992617015,
+     "y": 277.78,
+     "w": 150,
+     "h": 36,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "INTERPRETATION",
+         "font": "Consolas",
+         "size": 11,
+         "color": "2A665F"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Who read it, how",
+         "size": 12,
+         "color": "3B4A5C"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "align": 1,
+     "spaceAfter": 0
+    },
+    {
+     "type": "line",
+     "name": "rule-21",
+     "x1": 668,
+     "y1": 278,
+     "x2": 668,
+     "y2": 342.56,
+     "color": "CFC6B3",
+     "weight": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-22",
+     "x": 661,
+     "y": 344.56,
+     "w": 14,
+     "h": 14,
+     "fill": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-23",
+     "x": 573,
+     "y": 363.56,
+     "w": 190,
+     "h": 36,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ERRORS",
+         "font": "Consolas",
+         "size": 11,
+         "color": "2A665F"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Missed · over-referred",
+         "size": 12,
+         "color": "3B4A5C"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "align": 2,
+     "spaceAfter": 0
+    },
+    {
+     "type": "line",
+     "name": "rule-24",
+     "x1": 628.1628314259158,
+     "y1": 255,
+     "x2": 570.1391293723584,
+     "y2": 287.28,
+     "color": "CFC6B3",
+     "weight": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-25",
+     "x": 555.3449007382985,
+     "y": 284.78,
+     "w": 14,
+     "h": 14,
+     "fill": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-26",
+     "x": 398.3449007382985,
+     "y": 277.78,
+     "w": 150,
+     "h": 36,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "UNCERTAINTY",
+         "font": "Consolas",
+         "size": 11,
+         "color": "2A665F"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Ungradable · borderline",
+         "size": 12,
+         "color": "3B4A5C"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "align": 3,
+     "spaceAfter": 0
+    },
+    {
+     "type": "line",
+     "name": "rule-27",
+     "x1": 628.1628314259158,
+     "y1": 209,
+     "x2": 570.1391293723584,
+     "y2": 176.71999999999997,
+     "color": "CFC6B3",
+     "weight": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-28",
+     "x": 555.3449007382985,
+     "y": 165.21999999999997,
+     "w": 14,
+     "h": 14,
+     "fill": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-29",
+     "x": 398.3449007382985,
+     "y": 132.21999999999997,
+     "w": 150,
+     "h": 36,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "HUMAN OVERSIGHT",
+         "font": "Consolas",
+         "size": 11,
+         "color": "2A665F"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Who is accountable",
+         "size": 12,
+         "color": "3B4A5C"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "align": 3,
+     "spaceAfter": 0
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-30",
+     "x": 622,
+     "y": 186,
+     "w": 92,
+     "h": 92,
+     "fill": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-31",
+     "x": 626,
+     "y": 210,
+     "w": 84,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Can this label be trusted?"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 12,
+     "color": "F7F2E8",
+     "align": 2,
+     "italic": 1,
+     "anchor": 3
+    },
+    {
+     "type": "line",
+     "name": "rule-32",
+     "x1": 56,
+     "y1": 408,
+     "x2": 904,
+     "y2": 408,
+     "color": "CFC6B3",
+     "weight": 0.75
+    },
+    {
+     "type": "text",
+     "name": "txt-33",
+     "x": 56,
+     "y": 418,
+     "w": 130,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "22.3%"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 30,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-34",
+     "x": 184,
+     "y": 421,
+     "w": 300,
+     "h": 54,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "of adults with diabetes worldwide have diabetic retinopathy (95% CI 19.7–25.0)",
+         "size": 13,
+         "color": "3B4A5C"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Teo et al., Ophthalmology 2021 · 59 studies",
+         "font": "Consolas",
+         "size": 10,
+         "color": "67707B"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-35",
+     "x": 496,
+     "y": 418,
+     "w": 130,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "≈ 1.3 M"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 30,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-36",
+     "x": 624,
+     "y": 421,
+     "w": 300,
+     "h": 54,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "adults (20–79) with diabetes in the UAE in 2024",
+         "size": 13,
+         "color": "3B4A5C"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "IDF Diabetes Atlas · UAE country report",
+         "font": "Consolas",
+         "size": 10,
+         "color": "67707B"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-37",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-38",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "02"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: May Ahmed Mourad (Grade 12) · target 40 s · slide 2/12\nHere is the problem. A medical prediction can be wrong, uncertain, or built on a poor image or too little evidence. So the challenge is not producing a label. It is knowing whether the label can be trusted. The scale shows why. About one in five people with diabetes has diabetic retinopathy, roughly one hundred and three million adults in 2020, and the UAE has around one point three million adults with diabetes. Screening at that scale only works if its accuracy is understood. A confident prediction is not necessarily an accurate diagnosis."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-39",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "02 · OUR RESEARCH QUESTION"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-40",
+     "x": 56,
+     "y": 54,
+     "w": 780,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "How accurately is a diagnosis read — and how can we measure that?"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 31,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "rect",
+     "name": "shape-41",
+     "x": 56,
+     "y": 190,
+     "w": 130,
+     "h": 96,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-42",
+     "x": 66,
+     "y": 200,
+     "w": 28,
+     "h": 24,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "01"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-43",
+     "x": 66,
+     "y": 224,
+     "w": 112,
+     "h": 56,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Retinal case"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "line",
+     "name": "rule-44",
+     "x1": 187,
+     "y1": 238,
+     "x2": 197.4,
+     "y2": 238,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-45",
+     "x": 56,
+     "y": 296,
+     "w": 130,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Workbench · 16 synthetic cases"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-46",
+     "x": 198.4,
+     "y": 190,
+     "w": 130,
+     "h": 96,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-47",
+     "x": 208.4,
+     "y": 200,
+     "w": 28,
+     "h": 24,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "02"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-48",
+     "x": 208.4,
+     "y": 224,
+     "w": 112,
+     "h": 56,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Evidence inspection"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "line",
+     "name": "rule-49",
+     "x1": 329.4,
+     "y1": 238,
+     "x2": 339.79999999999995,
+     "y2": 238,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-50",
+     "x": 198.4,
+     "y": 296,
+     "w": 130,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "EvidenceLens"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-51",
+     "x": 340.8,
+     "y": 190,
+     "w": 130,
+     "h": 96,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-52",
+     "x": 350.8,
+     "y": 200,
+     "w": 28,
+     "h": 24,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "03"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-53",
+     "x": 350.8,
+     "y": 224,
+     "w": 112,
+     "h": 56,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Human interpretation"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "line",
+     "name": "rule-54",
+     "x1": 471.8,
+     "y1": 238,
+     "x2": 482.2,
+     "y2": 238,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-55",
+     "x": 340.8,
+     "y": 296,
+     "w": 130,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Diagnostic Duel · lock"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-56",
+     "x": 483.20000000000005,
+     "y": 190,
+     "w": 130,
+     "h": 96,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-57",
+     "x": 493.20000000000005,
+     "y": 200,
+     "w": 28,
+     "h": 24,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "04"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-58",
+     "x": 493.20000000000005,
+     "y": 224,
+     "w": 112,
+     "h": 56,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Reference comparison"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "line",
+     "name": "rule-59",
+     "x1": 614.2,
+     "y1": 238,
+     "x2": 624.6,
+     "y2": 238,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-60",
+     "x": 483.20000000000005,
+     "y": 296,
+     "w": 130,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Diagnostic Duel · reveal"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-61",
+     "x": 625.6,
+     "y": 190,
+     "w": 130,
+     "h": 96,
+     "fill": "0A1A2C",
+     "line": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-62",
+     "x": 635.6,
+     "y": 200,
+     "w": 28,
+     "h": 24,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "05"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "4A9A92"
+    },
+    {
+     "type": "text",
+     "name": "txt-63",
+     "x": 635.6,
+     "y": 224,
+     "w": 112,
+     "h": 56,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Reliability evaluation"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "F7F2E8",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "line",
+     "name": "rule-64",
+     "x1": 756.6,
+     "y1": 238,
+     "x2": 767,
+     "y2": 238,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-65",
+     "x": 625.6,
+     "y": 296,
+     "w": 130,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Quality & Uncertainty · Accuracy Lab"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-66",
+     "x": 768,
+     "y": 190,
+     "w": 130,
+     "h": 96,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-67",
+     "x": 778,
+     "y": 200,
+     "w": 28,
+     "h": 24,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "06"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-68",
+     "x": 778,
+     "y": 224,
+     "w": 112,
+     "h": 56,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Human review"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-69",
+     "x": 768,
+     "y": 296,
+     "w": 130,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Review Queue · Clinician approval"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "line",
+     "name": "rule-70",
+     "x1": 56,
+     "y1": 372,
+     "x2": 904,
+     "y2": 372,
+     "color": "CFC6B3",
+     "weight": 0.75
+    },
+    {
+     "type": "text",
+     "name": "txt-71",
+     "x": 56,
+     "y": 384,
+     "w": 380,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "THE PLATFORM INVESTIGATES"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-72",
+     "x": 56,
+     "y": 410,
+     "w": 280,
+     "h": 26,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Diagnostic interpretation"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 20,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-73",
+     "x": 346,
+     "y": 410,
+     "w": 280,
+     "h": 26,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Evidence inspection"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 20,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-74",
+     "x": 636,
+     "y": 410,
+     "w": 280,
+     "h": 26,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Error detection"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 20,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-75",
+     "x": 56,
+     "y": 444,
+     "w": 280,
+     "h": 26,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Reliability"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 20,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-76",
+     "x": 346,
+     "y": 444,
+     "w": 280,
+     "h": 26,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Accuracy evaluation"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 20,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-77",
+     "x": 636,
+     "y": 444,
+     "w": 280,
+     "h": 26,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Accountability"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 20,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-78",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-79",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "03"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: May Ahmed Mourad (Grade 12) · target 28 s · slide 3/12\nOur research question is: how accurately is a diagnosis read, and how can we measure that accuracy? Diagnostic Intelligence Lab is an interactive research environment for exactly that. A retinal case enters on the left. The reader inspects the evidence, records an interpretation, and only then compares it with a reference. We then ask how reliable the evidence was, and a human reviews the decision. Every box on this slide is a real module of our published prototype."
+  },
+  {
+   "bg": "0A1A2C",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-80",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "03 · WHY RETINAL SCREENING?"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "4A9A92"
+    },
+    {
+     "type": "img",
+     "name": "pic-81",
+     "path": "presentation/source/assets/fundus-C10.png",
+     "x": 56,
+     "y": 62,
+     "w": 424,
+     "hmax": 424,
+     "alt": "Synthetic teaching illustration of a left-eye retinal fundus image with many red haemorrhages and beaded veins, drawn by the prototype code. It is not a patient image.",
+     "crop": {
+      "l": 0.02,
+      "r": 0.02,
+      "t": 0.02,
+      "b": 0.02
+     },
+     "oval": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-82",
+     "x": 169.99381510416669,
+     "y": 258.6424153645833,
+     "w": 18,
+     "h": 18,
+     "fill": "8FD0C8",
+     "line": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-83",
+     "x": 169.99381510416669,
+     "y": 258.6424153645833,
+     "w": 18,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "1"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C",
+     "align": 2,
+     "anchor": 3,
+     "bold": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-84",
+     "x": 259,
+     "y": 271.35758463541663,
+     "w": 18,
+     "h": 18,
+     "fill": "8FD0C8",
+     "line": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-85",
+     "x": 259,
+     "y": 271.35758463541663,
+     "w": 18,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "2"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C",
+     "align": 2,
+     "anchor": 3,
+     "bold": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-86",
+     "x": 292.9124128102187,
+     "y": 346.52414259706177,
+     "w": 18,
+     "h": 18,
+     "fill": "8FD0C8",
+     "line": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-87",
+     "x": 292.9124128102187,
+     "y": 346.52414259706177,
+     "w": 18,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "3"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C",
+     "align": 2,
+     "anchor": 3,
+     "bold": 1
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-88",
+     "x": 240.5561981786183,
+     "y": 154.36604646977472,
+     "w": 18,
+     "h": 18,
+     "fill": "8FD0C8",
+     "line": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-89",
+     "x": 240.5561981786183,
+     "y": 154.36604646977472,
+     "w": 18,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "4"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C",
+     "align": 2,
+     "anchor": 3,
+     "bold": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-90",
+     "x": 72,
+     "y": 478,
+     "w": 300,
+     "h": 20,
+     "fill": "0A1A2C",
+     "line": "8FD0C8"
+    },
+    {
+     "type": "text",
+     "name": "txt-91",
+     "x": 72,
+     "y": 481,
+     "w": 300,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "SYNTHETIC ILLUSTRATION · NOT A PATIENT"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8",
+     "align": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-92",
+     "x": 520,
+     "y": 60,
+     "w": 380,
+     "h": 120,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Retinal imaging gives diagnosis a structured case study."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 25,
+     "color": "F7F2E8",
+     "lineSpacing": 0.98
+    },
+    {
+     "type": "text",
+     "name": "txt-93",
+     "x": 520,
+     "y": 180,
+     "w": 384,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Visible evidence. ",
+         "bold": 1,
+         "color": "F7F2E8"
+        },
+        {
+         "t": "Lesions can be seen, counted, located."
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "A clear question. ",
+         "bold": 1,
+         "color": "F7F2E8"
+        },
+        {
+         "t": "Refer — or re-screen."
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Two unequal errors. ",
+         "bold": 1,
+         "color": "F7F2E8"
+        },
+        {
+         "t": "False negative · false positive."
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 14,
+     "color": "C9CFD6",
+     "spaceAfter": 6
+    },
+    {
+     "type": "text",
+     "name": "txt-94",
+     "x": 520,
+     "y": 276,
+     "w": 384,
+     "h": 62,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "1  ",
+         "color": "8FD0C8",
+         "bold": 1
+        },
+        {
+         "t": "OPTIC DISC · nasal to the macula",
+         "color": "9DB1C4"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "2  ",
+         "color": "8FD0C8",
+         "bold": 1
+        },
+        {
+         "t": "MACULA · FOVEA · sharpest vision",
+         "color": "9DB1C4"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "3  ",
+         "color": "8FD0C8",
+         "bold": 1
+        },
+        {
+         "t": "HAEMORRHAGE · authored reference annotation",
+         "color": "9DB1C4"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "4  ",
+         "color": "8FD0C8",
+         "bold": 1
+        },
+        {
+         "t": "VENOUS BEADING · a severe-grade sign",
+         "color": "9DB1C4"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C",
+     "spaceAfter": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-95",
+     "x": 520,
+     "y": 344,
+     "w": 380,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ICDR SEVERITY · AUTHORED REFERENCE LABELS"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "rect",
+     "name": "shape-96",
+     "x": 520,
+     "y": 362,
+     "w": 70,
+     "h": 28,
+     "fill": "4A9A92"
+    },
+    {
+     "type": "text",
+     "name": "txt-97",
+     "x": 520,
+     "y": 368,
+     "w": 70,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "0"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "FFFFFF",
+     "align": 2
+    },
+    {
+     "type": "rect",
+     "name": "shape-98",
+     "x": 596,
+     "y": 362,
+     "w": 70,
+     "h": 28,
+     "fill": "4A9A92"
+    },
+    {
+     "type": "text",
+     "name": "txt-99",
+     "x": 596,
+     "y": 368,
+     "w": 70,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "1"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "FFFFFF",
+     "align": 2
+    },
+    {
+     "type": "rect",
+     "name": "shape-100",
+     "x": 672,
+     "y": 362,
+     "w": 70,
+     "h": 28,
+     "fill": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-101",
+     "x": 672,
+     "y": 368,
+     "w": 70,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "2"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "FFFFFF",
+     "align": 2
+    },
+    {
+     "type": "rect",
+     "name": "shape-102",
+     "x": 748,
+     "y": 362,
+     "w": 70,
+     "h": 28,
+     "fill": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-103",
+     "x": 748,
+     "y": 368,
+     "w": 70,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "3"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "FFFFFF",
+     "align": 2
+    },
+    {
+     "type": "rect",
+     "name": "shape-104",
+     "x": 824,
+     "y": 362,
+     "w": 70,
+     "h": 28,
+     "fill": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-105",
+     "x": 824,
+     "y": 368,
+     "w": 70,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "4"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "FFFFFF",
+     "align": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-106",
+     "x": 520,
+     "y": 396,
+     "w": 150,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "NON-REFERABLE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8"
+    },
+    {
+     "type": "text",
+     "name": "txt-107",
+     "x": 672,
+     "y": 396,
+     "w": 228,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "REFERABLE · or suspected DME"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "E8A090"
+    },
+    {
+     "type": "text",
+     "name": "txt-108",
+     "x": 520,
+     "y": 420,
+     "w": 384,
+     "h": 44,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Retinal screening is the first research use case — not the limit of the platform.",
+         "italic": 1,
+         "color": "F7F2E8"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 14,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-109",
+     "x": 520,
+     "y": 472,
+     "w": 384,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ICDR: Wilkinson et al., Ophthalmology 2003 · ETDRS Report 10, 1991"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-110",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-111",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "04"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: May Ahmed Mourad (Grade 12) · target 32 s · slide 4/12\nWhy the retina? A retinal photograph makes disease visible. Lesions can be seen, counted and located, and the screening question is clear: refer, or re-screen. That creates two different errors. A false negative sends disease home. A false positive sends a healthy person to a clinic. Our reference labels follow the ICDR scale. This image is a synthetic teaching illustration drawn by our own code. It is not a patient. Retinal screening is our first use case, not the limit of the platform.\n\nHAND-OVER: Shamsa will now show how the platform lets you inspect the evidence."
+  },
+  {
+   "bg": "0A1A2C",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-112",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "04 · EVIDENCELENS — SEE BEYOND THE IMAGE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "4A9A92"
+    },
+    {
+     "type": "text",
+     "name": "txt-113",
+     "x": 56,
+     "y": 54,
+     "w": 600,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Evidence first. Answer later."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 30,
+     "color": "F7F2E8",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "img",
+     "name": "pic-114",
+     "path": "presentation/source/assets/lens-annotated.png",
+     "x": 56,
+     "y": 102,
+     "w": 640,
+     "hmax": 392,
+     "alt": "Screenshot of EvidenceLens showing a synthetic retinal image with coloured reference annotation layers, anatomical guides, and the layer panel with opacity and comparison controls.",
+     "border": "234A73",
+     "crop": {
+      "l": 0,
+      "r": 0,
+      "t": 0.012,
+      "b": 0
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt-115",
+     "x": 56,
+     "y": 497.5035460992908,
+     "w": 640,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "LIVE APPLICATION · EvidenceLens · synthetic case C10 opened in Study Mode"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "line",
+     "name": "rule-116",
+     "x1": 722,
+     "y1": 108,
+     "x2": 734,
+     "y2": 108,
+     "color": "4A9A92",
+     "weight": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-117",
+     "x": 740,
+     "y": 101,
+     "w": 164,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ZOOM · PAN · NATIVE RES.",
+         "font": "Consolas",
+         "size": 10,
+         "color": "8FD0C8"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Wheel, pinch or keys; zoom level shown",
+         "size": 12.5,
+         "color": "C9CFD6"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 1
+    },
+    {
+     "type": "line",
+     "name": "rule-118",
+     "x1": 722,
+     "y1": 160,
+     "x2": 734,
+     "y2": 160,
+     "color": "4A9A92",
+     "weight": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-119",
+     "x": 740,
+     "y": 153,
+     "w": 164,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ANATOMY GUIDES",
+         "font": "Consolas",
+         "size": 10,
+         "color": "8FD0C8"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Disc outline · 1-DD macular zone · quadrants",
+         "size": 12.5,
+         "color": "C9CFD6"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 1
+    },
+    {
+     "type": "line",
+     "name": "rule-120",
+     "x1": 722,
+     "y1": 212,
+     "x2": 734,
+     "y2": 212,
+     "color": "4A9A92",
+     "weight": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-121",
+     "x": 740,
+     "y": 205,
+     "w": 164,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "LAYERS + OPACITY",
+         "font": "Consolas",
+         "size": 10,
+         "color": "8FD0C8"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Annotation layers revealed one at a time",
+         "size": 12.5,
+         "color": "C9CFD6"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 1
+    },
+    {
+     "type": "line",
+     "name": "rule-122",
+     "x1": 722,
+     "y1": 264,
+     "x2": 734,
+     "y2": 264,
+     "color": "4A9A92",
+     "weight": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-123",
+     "x": 740,
+     "y": 257,
+     "w": 164,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "GREEN-CHANNEL COMPARISON",
+         "font": "Consolas",
+         "size": 10,
+         "color": "8FD0C8"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Draggable plain | enhanced divider",
+         "size": 12.5,
+         "color": "C9CFD6"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-124",
+     "x": 722,
+     "y": 326,
+     "w": 182,
+     "h": 150,
+     "fill": "12304F",
+     "line": "234A73"
+    },
+    {
+     "type": "text",
+     "name": "txt-125",
+     "x": 734,
+     "y": 334,
+     "w": 158,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "BLIND-FIRST SAFEGUARD"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "E8A090"
+    },
+    {
+     "type": "text",
+     "name": "txt-126",
+     "x": 734,
+     "y": 352,
+     "w": 158,
+     "h": 120,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Reference annotations stay locked until the interpretation is locked.",
+         "size": 14,
+         "color": "F7F2E8"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Reduces anchoring in the educational reading. Early access = Study Mode = practice only.",
+         "size": 12,
+         "color": "9DB1C4"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 5
+    },
+    {
+     "type": "text",
+     "name": "txt-127",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-128",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "05"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: Shamsa Faris Almazrouei (Grade 12) · target 35 s · slide 5/12\nThank you, May. This is EvidenceLens, and it is not a standard image viewer. You can zoom and pan smoothly, switch on anatomical guides such as the optic disc outline and a one-disc-diameter zone around the macula, control layers and their opacity, and compare against a green-channel view. The most important design decision is the locked panel on the right. The reference annotations stay hidden until you lock your interpretation. If you see the answer first, you cannot honestly test your own reading. Good interpretation begins with careful evidence inspection.\n\nKEY LINE: Good interpretation begins with careful evidence inspection."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-129",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "05 · DIAGNOSTIC DUEL"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-130",
+     "x": 56,
+     "y": 54,
+     "w": 520,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Read. Lock. Reveal."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 40,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "rect",
+     "name": "shape-131",
+     "x": 560,
+     "y": 62,
+     "w": 344,
+     "h": 44,
+     "fill": "FCFAF4",
+     "line": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-132",
+     "x": 570,
+     "y": 67,
+     "w": 324,
+     "h": 36,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "EDUCATIONAL HUMAN-VERSUS-REFERENCE COMPARISON. ",
+         "bold": 1,
+         "color": "A94632"
+        },
+        {
+         "t": "No trained diagnostic AI model is involved.",
+         "color": "3B4A5C"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C",
+     "anchor": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-133",
+     "x": 56,
+     "y": 122,
+     "w": 270,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "READ"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 24,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "img",
+     "name": "pic-134",
+     "path": "presentation/source/assets/duel-read.png",
+     "x": 56,
+     "y": 162.54570861882442,
+     "w": 270,
+     "hmax": 266.90858276235116,
+     "alt": "Screenshot of the Diagnostic Duel panel in its read state.",
+     "crop": {
+      "l": 0.705,
+      "r": 0,
+      "t": 0.27,
+      "b": 0.3
+     },
+     "border": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-135",
+     "x": 56,
+     "y": 444,
+     "w": 270,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "1 Observe  ·  2 Gradability  ·  3 Confidence  ·  4 Interpret"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F"
+    },
+    {
+     "type": "line",
+     "name": "rule-136",
+     "x1": 330,
+     "y1": 296,
+     "x2": 349,
+     "y2": 296,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-137",
+     "x": 353,
+     "y": 122,
+     "w": 270,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "LOCK"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 24,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "img",
+     "name": "pic-138",
+     "path": "presentation/source/assets/duel-read.png",
+     "x": 353,
+     "y": 226.16926613775695,
+     "w": 270,
+     "hmax": 139.66146772448607,
+     "alt": "Screenshot of the Diagnostic Duel panel in its lock state.",
+     "crop": {
+      "l": 0.705,
+      "r": 0,
+      "t": 0.76,
+      "b": 0.015
+     },
+     "border": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-139",
+     "x": 353,
+     "y": 444,
+     "w": 270,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "5 Lock — final, no edits"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F"
+    },
+    {
+     "type": "line",
+     "name": "rule-140",
+     "x1": 627,
+     "y1": 296,
+     "x2": 646,
+     "y2": 296,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-141",
+     "x": 650,
+     "y": 122,
+     "w": 270,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "REVEAL"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 24,
+     "color": "A94632"
+    },
+    {
+     "type": "img",
+     "name": "pic-142",
+     "path": "presentation/source/assets/duel-reveal.png",
+     "x": 673.3847967339428,
+     "y": 156,
+     "w": 223.23040653211433,
+     "hmax": 280,
+     "alt": "Screenshot of the Diagnostic Duel panel in its reveal state.",
+     "crop": {
+      "l": 0.705,
+      "r": 0,
+      "t": 0.02,
+      "b": 0.716
+     },
+     "border": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-143",
+     "x": 650,
+     "y": 444,
+     "w": 270,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "6 Reference  ·  7 Discrepancies"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-144",
+     "x": 56,
+     "y": 478,
+     "w": 860,
+     "h": 24,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "The interpretation comes first. ",
+         "bold": 1,
+         "color": "0A1A2C"
+        },
+        {
+         "t": "The reference comes afterward.",
+         "color": "3B4A5C"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 17,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-145",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-146",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "06"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: Shamsa Faris Almazrouei (Grade 12) · target 40 s · slide 6/12\nThat safeguard leads into the Diagnostic Duel: read, lock, reveal. Read: you observe a synthetic case, decide whether the image can be graded, choose a retinopathy level, and state your confidence. Lock: you cannot change your answer. Reveal: only now does the authored reference appear, with the rule behind it, a table of agreements and disagreements, and what the outcome means. For example, why a false negative is the costly error. To be exact: this is an educational human-versus-reference comparison. No trained diagnostic AI model is involved. The interpretation comes first. The reference comes afterward. Let us show you.\n\nKEY LINE: The interpretation comes first. The reference comes afterward.\n\nLIVE DEMONSTRATION: switch to the prototype here — see DEMO_SCRIPT.md (90–120 s). Backup screenshots: presentation/backup-screenshots/."
+  },
+  {
+   "bg": "0A1A2C",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-147",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "06 · QUALITY & UNCERTAINTY — RELIABILITY UNDER PRESSURE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "4A9A92"
+    },
+    {
+     "type": "text",
+     "name": "txt-148",
+     "x": 56,
+     "y": 54,
+     "w": 700,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Judge the evidence before the interpretation."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 29,
+     "color": "F7F2E8",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "img",
+     "name": "pic-149",
+     "path": "presentation/source/assets/fundus-C06.png",
+     "x": 56,
+     "y": 112,
+     "w": 214,
+     "hmax": 214,
+     "alt": "Synthetic retinal image: original.",
+     "crop": {
+      "l": 0.02,
+      "r": 0.02,
+      "t": 0.02,
+      "b": 0.02
+     },
+     "oval": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-150",
+     "x": 56,
+     "y": 332,
+     "w": 214,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ORIGINAL"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8",
+     "align": 2
+    },
+    {
+     "type": "img",
+     "name": "pic-151",
+     "path": "presentation/source/assets/fundus-C06-blur7.png",
+     "x": 288,
+     "y": 112,
+     "w": 214,
+     "hmax": 214,
+     "alt": "Synthetic retinal image: blur σ = 7 px.",
+     "crop": {
+      "l": 0.02,
+      "r": 0.02,
+      "t": 0.02,
+      "b": 0.02
+     },
+     "oval": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-152",
+     "x": 288,
+     "y": 332,
+     "w": 214,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "BLUR σ = 7 px"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8",
+     "align": 2
+    },
+    {
+     "type": "img",
+     "name": "pic-153",
+     "path": "presentation/source/assets/fundus-C06-washed.png",
+     "x": 520,
+     "y": 112,
+     "w": 214,
+     "hmax": 214,
+     "alt": "Synthetic retinal image: washed-out preset.",
+     "crop": {
+      "l": 0.02,
+      "r": 0.02,
+      "t": 0.02,
+      "b": 0.02
+     },
+     "oval": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-154",
+     "x": 520,
+     "y": 332,
+     "w": 214,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "WASHED-OUT PRESET"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8",
+     "align": 2
+    },
+    {
+     "type": "line",
+     "name": "rule-155",
+     "x1": 56,
+     "y1": 362,
+     "x2": 746,
+     "y2": 362,
+     "color": "234A73",
+     "weight": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-156",
+     "x": 56,
+     "y": 367,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": ""
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-157",
+     "x": 206,
+     "y": 367,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ORIGINAL"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-158",
+     "x": 386,
+     "y": 367,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "BLUR σ 7"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-159",
+     "x": 566,
+     "y": 367,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "WASHED-OUT"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "line",
+     "name": "rule-160",
+     "x1": 56,
+     "y1": 387,
+     "x2": 746,
+     "y2": 387,
+     "color": "234A73",
+     "weight": 0.5
+    },
+    {
+     "type": "text",
+     "name": "txt-161",
+     "x": 56,
+     "y": 392,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Sharpness"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-162",
+     "x": 206,
+     "y": 392,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "3.48"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "text",
+     "name": "txt-163",
+     "x": 386,
+     "y": 392,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "0.98"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "text",
+     "name": "txt-164",
+     "x": 566,
+     "y": 392,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "1.91"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "line",
+     "name": "rule-165",
+     "x1": 56,
+     "y1": 412,
+     "x2": 746,
+     "y2": 412,
+     "color": "234A73",
+     "weight": 0.5
+    },
+    {
+     "type": "text",
+     "name": "txt-166",
+     "x": 56,
+     "y": 417,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Brightness"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-167",
+     "x": 206,
+     "y": 417,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "76.58"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "text",
+     "name": "txt-168",
+     "x": 386,
+     "y": 417,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "76.54"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "text",
+     "name": "txt-169",
+     "x": 566,
+     "y": 417,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "171.12"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "line",
+     "name": "rule-170",
+     "x1": 56,
+     "y1": 437,
+     "x2": 746,
+     "y2": 437,
+     "color": "234A73",
+     "weight": 0.5
+    },
+    {
+     "type": "text",
+     "name": "txt-171",
+     "x": 56,
+     "y": 442,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Contrast"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-172",
+     "x": 206,
+     "y": 442,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "32.58"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "text",
+     "name": "txt-173",
+     "x": 386,
+     "y": 442,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "31.83"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "text",
+     "name": "txt-174",
+     "x": 566,
+     "y": 442,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "17.87"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "line",
+     "name": "rule-175",
+     "x1": 56,
+     "y1": 462,
+     "x2": 746,
+     "y2": 462,
+     "color": "234A73",
+     "weight": 0.5
+    },
+    {
+     "type": "text",
+     "name": "txt-176",
+     "x": 56,
+     "y": 467,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Verdict"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-177",
+     "x": 206,
+     "y": 467,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ADEQUATE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8"
+    },
+    {
+     "type": "text",
+     "name": "txt-178",
+     "x": 386,
+     "y": 467,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "INSUFFICIENT"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "E8A090"
+    },
+    {
+     "type": "text",
+     "name": "txt-179",
+     "x": 566,
+     "y": 467,
+     "w": 170,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "BORDERLINE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "E8C070"
+    },
+    {
+     "type": "text",
+     "name": "txt-180",
+     "x": 770,
+     "y": 112,
+     "w": 134,
+     "h": 340,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "MEASURED FROM PIXELS",
+         "font": "Consolas",
+         "size": 10,
+         "color": "8FD0C8"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Sharpness · brightness · contrast · evenness · field coverage",
+         "size": 13,
+         "color": "C9CFD6"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "NO INVENTED CONFIDENCE",
+         "font": "Consolas",
+         "size": 10,
+         "color": "E8A090"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "No model, so no model response to degradation is shown.",
+         "size": 13,
+         "color": "C9CFD6"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "NO-RESULT PATHWAY",
+         "font": "Consolas",
+         "size": 10,
+         "color": "8FD0C8"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Insufficient quality → no grade → recapture.",
+         "size": 13,
+         "color": "C9CFD6"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "HEURISTICS",
+         "font": "Consolas",
+         "size": 10,
+         "color": "9DB1C4"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Tuned on 16 teaching images; not clinically validated.",
+         "size": 13,
+         "color": "9DB1C4"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 5
+    },
+    {
+     "type": "text",
+     "name": "txt-181",
+     "x": 56,
+     "y": 488,
+     "w": 700,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Values: the prototype’s own quality functions on case C06 (768 px analysis render), recorded by capture.mjs"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-182",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-183",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "07"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: Shamsa Faris Almazrouei (Grade 12) · target 30 s · slide 7/12\nBefore judging an interpretation, we judge the evidence. In Quality and Uncertainty, three sliders (blur, brightness and contrast) change the image in real time, and the platform measures sharpness, brightness and contrast directly from the pixels. These are the real measurements for these images. It never invents a confidence score, because there is no model to produce one, and our thresholds are heuristics that have not been clinically validated. If quality is insufficient, the answer is no result: recapture the image.\n\nKEY LINE: Before evaluating an interpretation, we must consider the quality of the evidence."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-184",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "07 · ACCURACY LABORATORY — THE TECHNICAL CENTREPIECE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-185",
+     "x": 56,
+     "y": 54,
+     "w": 520,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Measured, not claimed."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 42,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-186",
+     "x": 108,
+     "y": 128,
+     "w": 240,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "PREDICTED"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-187",
+     "x": 108,
+     "y": 142,
+     "w": 120,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Referable"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "3B4A5C",
+     "align": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-188",
+     "x": 228,
+     "y": 142,
+     "w": 120,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Non-referable"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "3B4A5C",
+     "align": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-189",
+     "x": 52,
+     "y": 236,
+     "w": 52,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "REFERENCE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-190",
+     "x": 52,
+     "y": 174,
+     "w": 52,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Referable"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "3B4A5C"
+    },
+    {
+     "type": "text",
+     "name": "txt-191",
+     "x": 52,
+     "y": 270,
+     "w": 52,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Non-ref."
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "3B4A5C"
+    },
+    {
+     "type": "rect",
+     "name": "shape-192",
+     "x": 108,
+     "y": 160,
+     "w": 116,
+     "h": 92,
+     "fill": "DDEBE8",
+     "line": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-193",
+     "x": 120,
+     "y": 170,
+     "w": 92,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TP"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 34,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-194",
+     "x": 120,
+     "y": 216,
+     "w": 92,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TRUE POSITIVE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F"
+    },
+    {
+     "type": "rect",
+     "name": "shape-195",
+     "x": 228,
+     "y": 160,
+     "w": 116,
+     "h": 92,
+     "fill": "F0D9D2",
+     "line": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-196",
+     "x": 240,
+     "y": 170,
+     "w": 92,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "FN"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 34,
+     "color": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-197",
+     "x": 240,
+     "y": 216,
+     "w": 92,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "FALSE NEGATIVE · MISSED"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "A94632"
+    },
+    {
+     "type": "rect",
+     "name": "shape-198",
+     "x": 108,
+     "y": 256,
+     "w": 116,
+     "h": 92,
+     "fill": "F1E4C4",
+     "line": "8F6614"
+    },
+    {
+     "type": "text",
+     "name": "txt-199",
+     "x": 120,
+     "y": 266,
+     "w": 92,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "FP"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 34,
+     "color": "8F6614"
+    },
+    {
+     "type": "text",
+     "name": "txt-200",
+     "x": 120,
+     "y": 312,
+     "w": 92,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "FALSE POSITIVE · OVER-REFERRAL"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8F6614"
+    },
+    {
+     "type": "rect",
+     "name": "shape-201",
+     "x": 228,
+     "y": 256,
+     "w": 116,
+     "h": 92,
+     "fill": "DDE6F0",
+     "line": "2F6FB7"
+    },
+    {
+     "type": "text",
+     "name": "txt-202",
+     "x": 240,
+     "y": 266,
+     "w": 92,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TN"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 34,
+     "color": "2F6FB7"
+    },
+    {
+     "type": "text",
+     "name": "txt-203",
+     "x": 240,
+     "y": 312,
+     "w": 92,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TRUE NEGATIVE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2F6FB7"
+    },
+    {
+     "type": "text",
+     "name": "txt-204",
+     "x": 56,
+     "y": 360,
+     "w": 300,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGRAM — NOT A RESULT. NO MODEL HAS BEEN EVALUATED."
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-205",
+     "x": 366,
+     "y": 128,
+     "w": 270,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "THE LABORATORY COMPUTES"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F"
+    },
+    {
+     "type": "rect",
+     "name": "shape-206",
+     "x": 366,
+     "y": 150,
+     "w": 124,
+     "h": 28,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-207",
+     "x": 374,
+     "y": 156,
+     "w": 112,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Sensitivity"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "rect",
+     "name": "shape-208",
+     "x": 496,
+     "y": 150,
+     "w": 124,
+     "h": 28,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-209",
+     "x": 504,
+     "y": 156,
+     "w": 112,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Specificity"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "rect",
+     "name": "shape-210",
+     "x": 366,
+     "y": 186,
+     "w": 124,
+     "h": 28,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-211",
+     "x": 374,
+     "y": 192,
+     "w": 112,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "PPV · NPV"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "rect",
+     "name": "shape-212",
+     "x": 496,
+     "y": 186,
+     "w": 124,
+     "h": 28,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-213",
+     "x": 504,
+     "y": 192,
+     "w": 112,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Accuracy"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "rect",
+     "name": "shape-214",
+     "x": 366,
+     "y": 222,
+     "w": 124,
+     "h": 28,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-215",
+     "x": 374,
+     "y": 228,
+     "w": 112,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ROC · AUC"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "rect",
+     "name": "shape-216",
+     "x": 496,
+     "y": 222,
+     "w": 124,
+     "h": 28,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-217",
+     "x": 504,
+     "y": 228,
+     "w": 112,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Wilson 95% CI"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "rect",
+     "name": "shape-218",
+     "x": 366,
+     "y": 258,
+     "w": 124,
+     "h": 28,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-219",
+     "x": 374,
+     "y": 264,
+     "w": 112,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Threshold analysis"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "rect",
+     "name": "shape-220",
+     "x": 496,
+     "y": 258,
+     "w": 124,
+     "h": 28,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-221",
+     "x": 504,
+     "y": 264,
+     "w": 112,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Error cases"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-222",
+     "x": 366,
+     "y": 306,
+     "w": 256,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "AND IT PROTECTS THE EVALUATION"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-223",
+     "x": 366,
+     "y": 324,
+     "w": 262,
+     "h": 120,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Patient-level leakage refused"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Threshold chosen on validation only"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Test evaluated once · counted"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Provenance: file SHA-256 + declared metadata"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 13,
+     "color": "3B4A5C",
+     "spaceAfter": 3
+    },
+    {
+     "type": "img",
+     "name": "pic-224",
+     "path": "presentation/source/assets/lab-status.png",
+     "x": 660,
+     "y": 128,
+     "w": 244,
+     "hmax": 300,
+     "alt": "Screenshot of the Accuracy Laboratory status page: No research model has been evaluated.",
+     "border": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-225",
+     "x": 660,
+     "y": 382.61621621621623,
+     "w": 244,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "LIVE APPLICATION · actual state: no research model evaluated"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-226",
+     "x": 56,
+     "y": 450,
+     "w": 848,
+     "h": 50,
+     "fill": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-227",
+     "x": 72,
+     "y": 452,
+     "w": 816,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "“The platform does not ask users to believe an accuracy claim. It establishes how that claim should be tested.”"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "F7F2E8",
+     "italic": 1,
+     "anchor": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-228",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-229",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "08"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: Shamsa Faris Almazrouei (Grade 12) · target 40 s · slide 8/12\nQuality is one part of reliability. The other is measurement, and this is our technical centrepiece. From four counts, true and false positives and negatives, the Accuracy Laboratory computes sensitivity, specificity, predictive values, ROC area and Wilson confidence intervals, with threshold analysis and error cases. It also protects the evaluation: a file is refused if one patient appears in more than one partition, thresholds are chosen on validation data only, and the test set is used once. Now the honest part, on the right. The real state of the application is that no research model has been evaluated. The matrix here is a diagram, not a result. The platform does not ask you to believe an accuracy claim. It establishes how that claim should be tested.\n\nHAND-OVER: Fatima will explain who stays accountable.\n\nKEY LINE: The platform does not ask users to believe an accuracy claim. It establishes how that claim should be tested."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-230",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "08 · HUMAN OVERSIGHT AND CAREBRIDGE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-231",
+     "x": 56,
+     "y": 54,
+     "w": 560,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "The decision stays human."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 38,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "rect",
+     "name": "shape-232",
+     "x": 56,
+     "y": 128,
+     "w": 198,
+     "h": 44,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-233",
+     "x": 68,
+     "y": 128,
+     "w": 30,
+     "h": 44,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "01"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F",
+     "anchor": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-234",
+     "x": 96,
+     "y": 128,
+     "w": 152,
+     "h": 44,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Interpretation"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "anchor": 3
+    },
+    {
+     "type": "line",
+     "name": "rule-235",
+     "x1": 255,
+     "y1": 150,
+     "x2": 267,
+     "y2": 150,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-236",
+     "x": 268,
+     "y": 128,
+     "w": 198,
+     "h": 44,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-237",
+     "x": 280,
+     "y": 128,
+     "w": 30,
+     "h": 44,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "02"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F",
+     "anchor": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-238",
+     "x": 308,
+     "y": 128,
+     "w": 152,
+     "h": 44,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Review"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "anchor": 3
+    },
+    {
+     "type": "line",
+     "name": "rule-239",
+     "x1": 467,
+     "y1": 150,
+     "x2": 479,
+     "y2": 150,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-240",
+     "x": 480,
+     "y": 128,
+     "w": 198,
+     "h": 44,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-241",
+     "x": 492,
+     "y": 128,
+     "w": 30,
+     "h": 44,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "03"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F",
+     "anchor": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-242",
+     "x": 520,
+     "y": 128,
+     "w": 152,
+     "h": 44,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Approval"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "anchor": 3
+    },
+    {
+     "type": "line",
+     "name": "rule-243",
+     "x1": 679,
+     "y1": 150,
+     "x2": 691,
+     "y2": 150,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-244",
+     "x": 692,
+     "y": 128,
+     "w": 198,
+     "h": 44,
+     "fill": "2A665F",
+     "line": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-245",
+     "x": 704,
+     "y": 128,
+     "w": 30,
+     "h": 44,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "04"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8",
+     "anchor": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-246",
+     "x": 732,
+     "y": 128,
+     "w": 152,
+     "h": 44,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Conditional referral draft"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "FFFFFF",
+     "anchor": 3
+    },
+    {
+     "type": "img",
+     "name": "pic-247",
+     "path": "presentation/source/assets/review.png",
+     "x": 56,
+     "y": 190,
+     "w": 410,
+     "hmax": 250,
+     "alt": "Screenshot of the Review Queue showing cases, interpretations, discrepancy flags and the provenance ledger.",
+     "border": "CFC6B3"
+    },
+    {
+     "type": "img",
+     "name": "pic-248",
+     "path": "presentation/source/assets/carebridge.png",
+     "x": 494,
+     "y": 190,
+     "w": 410,
+     "hmax": 250,
+     "alt": "Screenshot of CareBridge showing a synthetic referral letter drafted from an approved disposition.",
+     "border": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-249",
+     "x": 56,
+     "y": 409.29479768786126,
+     "w": 410,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "LIVE APPLICATION · Review Queue · discrepancy flags (sample records)"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-250",
+     "x": 494,
+     "y": 445.23892100192677,
+     "w": 410,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "LIVE APPLICATION · CareBridge · drafted only after approval"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-251",
+     "x": 56,
+     "y": 476,
+     "w": 860,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "It drafts a referral only after an eligible disposition is approved. ",
+         "color": "0A1A2C"
+        },
+        {
+         "t": "It does not decide urgency or treatment.",
+         "color": "A94632",
+         "bold": 1
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-252",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-253",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "09"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: Fatima Mohamed Almazrouei (Grade 11) · target 30 s · slide 9/12\nThank you, Shamsa. A measured claim still needs a responsible human decision. Our workflow is: interpretation, review, approval, and only then a conditional referral draft. In the Review Queue, a reviewer sees discrepancies, for example when an interpretation differs from the reference label. In the approval step, the clinician role must acknowledge any discrepancy, and free text is scanned so identifiers cannot be typed in. CareBridge drafts a referral letter only after a human has approved an eligible disposition. It never decides urgency or treatment. AI-assisted healthcare must preserve human responsibility.\n\nKEY LINE: AI-assisted healthcare must preserve human responsibility for clinical decisions."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-254",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "09 · RESPONSIBLE AI BY DESIGN"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-255",
+     "x": 56,
+     "y": 54,
+     "w": 700,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Safeguards that are already built."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 34,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "rect",
+     "name": "shape-256",
+     "x": 56,
+     "y": 138,
+     "w": 264,
+     "h": 3,
+     "fill": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-257",
+     "x": 56,
+     "y": 152,
+     "w": 264,
+     "h": 26,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "SAFETY"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 13,
+     "color": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-258",
+     "x": 56,
+     "y": 186,
+     "w": 264,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "01"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 30,
+     "color": "CFC6B3",
+     "italic": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-259",
+     "x": 56,
+     "y": 232,
+     "w": 264,
+     "h": 220,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Synthetic cases only"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "No real patient uploads"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "No fabricated AI predictions"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Image-quality awareness"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 15,
+     "color": "3B4A5C",
+     "spaceAfter": 8
+    },
+    {
+     "type": "rect",
+     "name": "shape-260",
+     "x": 344,
+     "y": 138,
+     "w": 264,
+     "h": 3,
+     "fill": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-261",
+     "x": 344,
+     "y": 152,
+     "w": 264,
+     "h": 26,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TRANSPARENCY"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 13,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-262",
+     "x": 344,
+     "y": 186,
+     "w": 264,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "02"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 30,
+     "color": "CFC6B3",
+     "italic": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-263",
+     "x": 344,
+     "y": 232,
+     "w": 264,
+     "h": 220,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Blind-first interpretation"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Defined, attributed reference labels"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Evaluation provenance recorded"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Limitations stated on the page"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "English and Arabic interface"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 15,
+     "color": "3B4A5C",
+     "spaceAfter": 8
+    },
+    {
+     "type": "rect",
+     "name": "shape-264",
+     "x": 632,
+     "y": 138,
+     "w": 264,
+     "h": 3,
+     "fill": "2F6FB7"
+    },
+    {
+     "type": "text",
+     "name": "txt-265",
+     "x": 632,
+     "y": 152,
+     "w": 264,
+     "h": 26,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "ACCOUNTABILITY"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 13,
+     "color": "2F6FB7"
+    },
+    {
+     "type": "text",
+     "name": "txt-266",
+     "x": 632,
+     "y": 186,
+     "w": 264,
+     "h": 40,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "03"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 30,
+     "color": "CFC6B3",
+     "italic": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-267",
+     "x": 632,
+     "y": 232,
+     "w": 264,
+     "h": 220,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Human approval of every disposition"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Records stay in local browser storage"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Leakage checks protect evaluation"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Review workflows"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "References, interpretations and decisions kept separate"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 15,
+     "color": "3B4A5C",
+     "spaceAfter": 8
+    },
+    {
+     "type": "rect",
+     "name": "shape-268",
+     "x": 56,
+     "y": 458,
+     "w": 848,
+     "h": 38,
+     "fill": "FCFAF4",
+     "line": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-269",
+     "x": 70,
+     "y": 458,
+     "w": 820,
+     "h": 38,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "NOT CLINICALLY APPROVED · NOT A MEDICAL DEVICE · NOT FOR REAL PATIENT CARE",
+         "bold": 1
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "A94632",
+     "anchor": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-270",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-271",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "10"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: Fatima Mohamed Almazrouei (Grade 11) · target 30 s · slide 10/12\nResponsible AI is built in, not added at the end. Safety: synthetic cases only, no patient uploads, no fabricated AI predictions, and awareness of image quality. Transparency: blind-first reading, defined and attributed reference labels, recorded evaluation provenance, limitations written on the page, and an interface in English and Arabic. Accountability: human approval, records that stay in the browser, leakage checks, review workflows, and a strict separation of references, interpretations and decisions. And to be equally clear: this prototype is not clinically approved and not ready for real patient care."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-272",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "10 · FROM PROTOTYPE TO CLINICAL RESEARCH"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-273",
+     "x": 56,
+     "y": 54,
+     "w": 780,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "The next step is not deployment."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 34,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-274",
+     "x": 56,
+     "y": 94,
+     "w": 700,
+     "h": 32,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "It is rigorous validation.",
+         "italic": 1,
+         "color": "2A665F"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 24,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "line",
+     "name": "rule-275",
+     "x1": 56,
+     "y1": 172,
+     "x2": 904,
+     "y2": 172,
+     "color": "CFC6B3",
+     "weight": 1.5
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-276",
+     "x": 56,
+     "y": 164,
+     "w": 16,
+     "h": 16,
+     "fill": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-277",
+     "x": 56,
+     "y": 144,
+     "w": 135,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TODAY"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "2A665F"
+    },
+    {
+     "type": "rect",
+     "name": "shape-278",
+     "x": 56,
+     "y": 194,
+     "w": 135,
+     "h": 276,
+     "fill": "0A1A2C",
+     "line": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-279",
+     "x": 66,
+     "y": 204,
+     "w": 117,
+     "h": 60,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Prototype"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "F7F2E8",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-280",
+     "x": 66,
+     "y": 268,
+     "w": 117,
+     "h": 196,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "16 synthetic cases"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Evidence inspection"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Interpretation workflow"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Evaluation engine"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Human review"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "C9CFD6",
+     "spaceAfter": 6
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-281",
+     "x": 197,
+     "y": 164,
+     "w": 16,
+     "h": 16,
+     "fill": "F7F2E8",
+     "line": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-282",
+     "x": 197,
+     "y": 144,
+     "w": 135,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "PHASE 1"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-283",
+     "x": 197,
+     "y": 194,
+     "w": 135,
+     "h": 276,
+     "fill": "FCFAF4",
+     "line": "CFC6B3",
+     "dash": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-284",
+     "x": 207,
+     "y": 204,
+     "w": 117,
+     "h": 60,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Representative data"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-285",
+     "x": 207,
+     "y": 268,
+     "w": 117,
+     "h": 196,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Licensed retinal dataset"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Patient-separated train / validation / test"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C",
+     "spaceAfter": 6
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-286",
+     "x": 338,
+     "y": 164,
+     "w": 16,
+     "h": 16,
+     "fill": "F7F2E8",
+     "line": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-287",
+     "x": 338,
+     "y": 144,
+     "w": 135,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "PHASE 2"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-288",
+     "x": 338,
+     "y": 194,
+     "w": 135,
+     "h": 276,
+     "fill": "FCFAF4",
+     "line": "CFC6B3",
+     "dash": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-289",
+     "x": 348,
+     "y": 204,
+     "w": 117,
+     "h": 60,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Research model"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-290",
+     "x": 348,
+     "y": 268,
+     "w": 117,
+     "h": 196,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Train and evaluate"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Document architecture, training, limits"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C",
+     "spaceAfter": 6
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-291",
+     "x": 479,
+     "y": 164,
+     "w": 16,
+     "h": 16,
+     "fill": "F7F2E8",
+     "line": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-292",
+     "x": 479,
+     "y": 144,
+     "w": 135,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "PHASE 3"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-293",
+     "x": 479,
+     "y": 194,
+     "w": 135,
+     "h": 276,
+     "fill": "FCFAF4",
+     "line": "CFC6B3",
+     "dash": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-294",
+     "x": 489,
+     "y": 204,
+     "w": 117,
+     "h": 60,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "External validation"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-295",
+     "x": 489,
+     "y": 268,
+     "w": 117,
+     "h": 196,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "External dataset"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Subgroups · calibration"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Quality robustness · errors"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C",
+     "spaceAfter": 6
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-296",
+     "x": 620,
+     "y": 164,
+     "w": 16,
+     "h": 16,
+     "fill": "F7F2E8",
+     "line": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-297",
+     "x": 620,
+     "y": 144,
+     "w": 135,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "PHASE 4"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-298",
+     "x": 620,
+     "y": 194,
+     "w": 135,
+     "h": 276,
+     "fill": "FCFAF4",
+     "line": "CFC6B3",
+     "dash": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-299",
+     "x": 630,
+     "y": 204,
+     "w": 117,
+     "h": 60,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Clinician-supervised research"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-300",
+     "x": 630,
+     "y": 268,
+     "w": 117,
+     "h": 196,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Performance · workflow"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Automation bias"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Human–AI collaboration"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C",
+     "spaceAfter": 6
+    },
+    {
+     "type": "ellipse",
+     "name": "oval-301",
+     "x": 761,
+     "y": 164,
+     "w": 16,
+     "h": 16,
+     "fill": "F7F2E8",
+     "line": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-302",
+     "x": 761,
+     "y": 144,
+     "w": 135,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "PHASE 5"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "rect",
+     "name": "shape-303",
+     "x": 761,
+     "y": 194,
+     "w": 135,
+     "h": 276,
+     "fill": "FCFAF4",
+     "line": "CFC6B3",
+     "dash": 1
+    },
+    {
+     "type": "text",
+     "name": "txt-304",
+     "x": 771,
+     "y": 204,
+     "w": 117,
+     "h": 60,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Prospective evaluation"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "text",
+     "name": "txt-305",
+     "x": 771,
+     "y": 268,
+     "w": 117,
+     "h": 196,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Prospective studies"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Governance · security"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Regulatory requirements"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C",
+     "spaceAfter": 6
+    },
+    {
+     "type": "text",
+     "name": "txt-306",
+     "x": 56,
+     "y": 478,
+     "w": 860,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Solid = implemented in the published prototype.  Dashed = future research, not built.",
+         "font": "Consolas",
+         "size": 10,
+         "color": "67707B"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-307",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-308",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "11"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: Fatima Mohamed Almazrouei (Grade 11) · target 35 s · slide 11/12\nSo what comes next? Today, in teal, is the prototype and its evaluation tools. Phase one: obtain a properly licensed retinal dataset, split by patient into training, validation and test sets. Phase two: train and evaluate a real research model, and document it. Phase three: external validation, with other datasets, subgroups, calibration, image-quality robustness and error analysis. Phase four: clinician-supervised research on performance, workflow, automation bias and human–AI collaboration. Phase five: prospective studies, governance, security and regulation before any real-world use. The next step is not deployment. It is rigorous validation.\n\nKEY LINE: The next step is not deployment. It is rigorous validation."
+  },
+  {
+   "bg": "0A1A2C",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-309",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "11 · INTELLIGENCE REQUIRES EVIDENCE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "4A9A92"
+    },
+    {
+     "type": "text",
+     "name": "txt-310",
+     "x": 56,
+     "y": 62,
+     "w": 560,
+     "h": 250,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "“The future of diagnostic AI should not be judged by how confidently it predicts — but by how reliably its accuracy can be demonstrated.”"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 29,
+     "color": "F7F2E8",
+     "italic": 1,
+     "lineSpacing": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-311",
+     "x": 56,
+     "y": 322,
+     "w": 180,
+     "h": 24,
+     "fill": "12304F",
+     "line": "234A73"
+    },
+    {
+     "type": "text",
+     "name": "txt-312",
+     "x": 56,
+     "y": 327,
+     "w": 180,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TRANSPARENT EVIDENCE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8",
+     "align": 2
+    },
+    {
+     "type": "rect",
+     "name": "shape-313",
+     "x": 246,
+     "y": 322,
+     "w": 180,
+     "h": 24,
+     "fill": "12304F",
+     "line": "234A73"
+    },
+    {
+     "type": "text",
+     "name": "txt-314",
+     "x": 246,
+     "y": 327,
+     "w": 180,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "MEASURABLE ACCURACY"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8",
+     "align": 2
+    },
+    {
+     "type": "rect",
+     "name": "shape-315",
+     "x": 56,
+     "y": 354,
+     "w": 180,
+     "h": 24,
+     "fill": "12304F",
+     "line": "234A73"
+    },
+    {
+     "type": "text",
+     "name": "txt-316",
+     "x": 56,
+     "y": 359,
+     "w": 180,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "RESPONSIBLE DEVELOPMENT"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8",
+     "align": 2
+    },
+    {
+     "type": "rect",
+     "name": "shape-317",
+     "x": 246,
+     "y": 354,
+     "w": 180,
+     "h": 24,
+     "fill": "12304F",
+     "line": "234A73"
+    },
+    {
+     "type": "text",
+     "name": "txt-318",
+     "x": 246,
+     "y": 359,
+     "w": 180,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "HUMAN OVERSIGHT"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8",
+     "align": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-319",
+     "x": 56,
+     "y": 400,
+     "w": 520,
+     "h": 100,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Diagnostic Intelligence Lab",
+         "font": "Georgia",
+         "size": 18,
+         "color": "F7F2E8"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "May Ahmed Mourad (G12) · Shamsa Faris Almazrouei (G12) · Fatima Mohamed Almazrouei (G11)",
+         "size": 12,
+         "color": "C9CFD6"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "ADNOC Schools — Madinat Zayed · Al Dhafra Health Forum · Accurate Diagnosis — التشخيص الدقيق",
+         "size": 12,
+         "color": "C9CFD6"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 3
+    },
+    {
+     "type": "rect",
+     "name": "shape-320",
+     "x": 690,
+     "y": 70,
+     "w": 214,
+     "h": 232,
+     "fill": "FFFFFF"
+    },
+    {
+     "type": "img",
+     "name": "pic-321",
+     "path": "presentation/source/assets/qr-live-prototype.png",
+     "x": 702,
+     "y": 82,
+     "w": 190,
+     "hmax": 190,
+     "alt": "QR code linking to the live Diagnostic Intelligence Lab prototype at maymourad.github.io/Diagnostic-Intelligence-Lab."
+    },
+    {
+     "type": "text",
+     "name": "txt-322",
+     "x": 690,
+     "y": 272,
+     "w": 214,
+     "h": 24,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "SCAN · LIVE PROTOTYPE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "0A1A2C",
+     "align": 2
+    },
+    {
+     "type": "text",
+     "name": "txt-323",
+     "x": 604,
+     "y": 316,
+     "w": 300,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "maymourad.github.io/",
+         "color": "8FD0C8"
+        },
+        {
+         "t": "Diagnostic-Intelligence-Lab",
+         "color": "F7F2E8",
+         "bold": 1
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "0A1A2C",
+     "link": "https://maymourad.github.io/Diagnostic-Intelligence-Lab/",
+     "align": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-324",
+     "x": 604,
+     "y": 342,
+     "w": 300,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Open source · MIT · github.com/MayMourad/Diagnostic-Intelligence-Lab"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4",
+     "align": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-325",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4"
+    },
+    {
+     "type": "text",
+     "name": "txt-326",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "12"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "9DB1C4",
+     "align": 3
+    }
+   ],
+   "notes": "SPEAKER: Fatima Mohamed Almazrouei (Grade 11) — then all three for “Thank you” · target 25 s · slide 12/12\nTo close: the future of diagnostic AI should not be judged by how confidently it predicts, but by how reliably its accuracy can be demonstrated. EvidenceLens makes evidence visible. Diagnostic Duel makes interpretation measurable. Quality and Uncertainty shows how reliable the evidence is. The Accuracy Laboratory shows how performance must be tested. And human oversight keeps accountability where it belongs. Intelligence requires evidence. The prototype is live: scan the code. Thank you. We would be glad to take your questions."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-327",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "APPENDIX A · DIAGNOSTIC EVALUATION MATHEMATICS"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-328",
+     "x": 56,
+     "y": 54,
+     "w": 760,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Four counts. Everything else follows."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 32,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "line",
+     "name": "rule-329",
+     "x1": 56,
+     "y1": 128,
+     "x2": 464,
+     "y2": 128,
+     "color": "CFC6B3",
+     "weight": 0.75
+    },
+    {
+     "type": "text",
+     "name": "txt-330",
+     "x": 56,
+     "y": 134,
+     "w": 120,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Sensitivity"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-331",
+     "x": 180,
+     "y": 135,
+     "w": 284,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TP ÷ (TP + FN)"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10.5,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-332",
+     "x": 180,
+     "y": 156,
+     "w": 286,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Of the truly referable, the share found. Misses are FN."
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C"
+    },
+    {
+     "type": "line",
+     "name": "rule-333",
+     "x1": 492,
+     "y1": 128,
+     "x2": 900,
+     "y2": 128,
+     "color": "CFC6B3",
+     "weight": 0.75
+    },
+    {
+     "type": "text",
+     "name": "txt-334",
+     "x": 492,
+     "y": 134,
+     "w": 120,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Specificity"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-335",
+     "x": 616,
+     "y": 135,
+     "w": 284,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TN ÷ (TN + FP)"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10.5,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-336",
+     "x": 616,
+     "y": 156,
+     "w": 286,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Of the truly non-referable, the share correctly cleared."
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C"
+    },
+    {
+     "type": "line",
+     "name": "rule-337",
+     "x1": 56,
+     "y1": 206,
+     "x2": 464,
+     "y2": 206,
+     "color": "CFC6B3",
+     "weight": 0.75
+    },
+    {
+     "type": "text",
+     "name": "txt-338",
+     "x": 56,
+     "y": 212,
+     "w": 120,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "PPV"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-339",
+     "x": 180,
+     "y": 213,
+     "w": 284,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TP ÷ (TP + FP)"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10.5,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-340",
+     "x": 180,
+     "y": 234,
+     "w": 286,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "When it says “refer”, how often it is right — depends on prevalence."
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C"
+    },
+    {
+     "type": "line",
+     "name": "rule-341",
+     "x1": 492,
+     "y1": 206,
+     "x2": 900,
+     "y2": 206,
+     "color": "CFC6B3",
+     "weight": 0.75
+    },
+    {
+     "type": "text",
+     "name": "txt-342",
+     "x": 492,
+     "y": 212,
+     "w": 120,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "NPV"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-343",
+     "x": 616,
+     "y": 213,
+     "w": 284,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "TN ÷ (TN + FN)"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10.5,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-344",
+     "x": 616,
+     "y": 234,
+     "w": 286,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "When it says “routine”, how often it is right — depends on prevalence."
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C"
+    },
+    {
+     "type": "line",
+     "name": "rule-345",
+     "x1": 56,
+     "y1": 284,
+     "x2": 464,
+     "y2": 284,
+     "color": "CFC6B3",
+     "weight": 0.75
+    },
+    {
+     "type": "text",
+     "name": "txt-346",
+     "x": 56,
+     "y": 290,
+     "w": 120,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Accuracy"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-347",
+     "x": 180,
+     "y": 291,
+     "w": 284,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "(TP + TN) ÷ all"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10.5,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-348",
+     "x": 180,
+     "y": 312,
+     "w": 286,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Overall agreement; can hide a poor sensitivity when disease is rare."
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C"
+    },
+    {
+     "type": "line",
+     "name": "rule-349",
+     "x1": 492,
+     "y1": 284,
+     "x2": 900,
+     "y2": 284,
+     "color": "CFC6B3",
+     "weight": 0.75
+    },
+    {
+     "type": "text",
+     "name": "txt-350",
+     "x": 492,
+     "y": 290,
+     "w": 120,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Wilson 95% CI"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 16,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-351",
+     "x": 616,
+     "y": 291,
+     "w": 284,
+     "h": 18,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "p̂ ± z·√(p̂(1−p̂)/n + z²/4n²) ÷ (1+z²/n)"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10.5,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-352",
+     "x": 616,
+     "y": 312,
+     "w": 286,
+     "h": 46,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Interval for a proportion; wide when n is small."
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 12.5,
+     "color": "3B4A5C"
+    },
+    {
+     "type": "text",
+     "name": "txt-353",
+     "x": 56,
+     "y": 366,
+     "w": 420,
+     "h": 70,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "THRESHOLD TRADE-OFF",
+         "font": "Consolas",
+         "size": 10,
+         "color": "2A665F"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Raising the decision threshold trades sensitivity for specificity — it never improves both. The simulator at right is stamped SIMULATION and uses random scores, not a model.",
+         "size": 13,
+         "color": "3B4A5C"
+        }
+       ]
+      }
+     ],
+     "font": "Calibri",
+     "size": 16,
+     "color": "0A1A2C",
+     "spaceAfter": 3
+    },
+    {
+     "type": "img",
+     "name": "pic-354",
+     "path": "presentation/source/assets/lab-simulator.png",
+     "x": 492,
+     "y": 366,
+     "w": 408,
+     "hmax": 128,
+     "alt": "Simulator view of the Accuracy Laboratory, stamped as an educational simulation, showing threshold controls and confusion matrix.",
+     "border": "CFC6B3",
+     "crop": {
+      "l": 0,
+      "r": 0,
+      "t": 0,
+      "b": 0.55
+     }
+    },
+    {
+     "type": "text",
+     "name": "txt-355",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE · APPENDIX"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-356",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "A1"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "APPENDIX A (for Q&A). Sensitivity = TP/(TP+FN): of the truly referable, how many were found. Specificity = TN/(TN+FP). Raising the threshold trades sensitivity for specificity; it never improves both. PPV and NPV depend on prevalence, so they change with the screened population even when sensitivity and specificity do not. Wilson intervals show how little a small sample can say. The simulator picture is stamped SIMULATION: random scores, not a model."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-357",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "APPENDIX B · DATASET INTEGRITY"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-358",
+     "x": 56,
+     "y": 54,
+     "w": 780,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "A good result on bad data is a bad result."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 31,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "rect",
+     "name": "shape-359",
+     "x": 56,
+     "y": 126,
+     "w": 158,
+     "h": 62,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-360",
+     "x": 66,
+     "y": 132,
+     "w": 138,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Held-out file"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-361",
+     "x": 66,
+     "y": 154,
+     "w": 138,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "id · patient · split · reference · score"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "line",
+     "name": "rule-362",
+     "x1": 215,
+     "y1": 157,
+     "x2": 225,
+     "y2": 157,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-363",
+     "x": 226,
+     "y": 126,
+     "w": 158,
+     "h": 62,
+     "fill": "0A1A2C",
+     "line": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-364",
+     "x": 236,
+     "y": 132,
+     "w": 138,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Integrity checks"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "F7F2E8"
+    },
+    {
+     "type": "text",
+     "name": "txt-365",
+     "x": 236,
+     "y": 154,
+     "w": 138,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "leakage · duplicates · class balance"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "8FD0C8"
+    },
+    {
+     "type": "line",
+     "name": "rule-366",
+     "x1": 385,
+     "y1": 157,
+     "x2": 395,
+     "y2": 157,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-367",
+     "x": 396,
+     "y": 126,
+     "w": 158,
+     "h": 62,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-368",
+     "x": 406,
+     "y": 132,
+     "w": 138,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Threshold"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-369",
+     "x": 406,
+     "y": 154,
+     "w": 138,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "validation data only"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "line",
+     "name": "rule-370",
+     "x1": 555,
+     "y1": 157,
+     "x2": 565,
+     "y2": 157,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-371",
+     "x": 566,
+     "y": 126,
+     "w": 158,
+     "h": 62,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-372",
+     "x": 576,
+     "y": 132,
+     "w": 138,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Test, once"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-373",
+     "x": 576,
+     "y": 154,
+     "w": 138,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "evaluations are counted"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "line",
+     "name": "rule-374",
+     "x1": 725,
+     "y1": 157,
+     "x2": 735,
+     "y2": 157,
+     "color": "2A665F",
+     "weight": 1.25,
+     "arrow": 1
+    },
+    {
+     "type": "rect",
+     "name": "shape-375",
+     "x": 736,
+     "y": 126,
+     "w": 158,
+     "h": 62,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-376",
+     "x": 746,
+     "y": 132,
+     "w": 138,
+     "h": 20,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Provenance"
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 15,
+     "color": "0A1A2C"
+    },
+    {
+     "type": "text",
+     "name": "txt-377",
+     "x": 746,
+     "y": 154,
+     "w": 138,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "SHA-256 · declared metadata"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-378",
+     "x": 56,
+     "y": 204,
+     "w": 400,
+     "h": 190,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Patient-level leakage: ",
+         "bold": 1
+        },
+        {
+         "t": "one patient, one partition."
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Separation: ",
+         "bold": 1
+        },
+        {
+         "t": "train fits, validation selects, test reports once."
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Provenance: ",
+         "bold": 1
+        },
+        {
+         "t": "who made the model, on what data — declared, hashed."
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "External validation: ",
+         "bold": 1
+        },
+        {
+         "t": "a different site or camera."
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Reproducibility: ",
+         "bold": 1
+        },
+        {
+         "t": "fixed seeds, unit-tested engine, CI."
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 14,
+     "color": "3B4A5C",
+     "spaceAfter": 7
+    },
+    {
+     "type": "img",
+     "name": "pic-379",
+     "path": "presentation/source/assets/lab-integrity.png",
+     "x": 496,
+     "y": 204,
+     "w": 408,
+     "hmax": 290,
+     "alt": "Screenshot of the Accuracy Laboratory refusing a synthetic predictions file because one patient appears in more than one partition.",
+     "border": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-380",
+     "x": 496,
+     "y": 472.1387283236994,
+     "w": 420,
+     "h": 28,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "LIVE APPLICATION · synthetic test file with a deliberate leak → reporting blocked"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-381",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE · APPENDIX"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-382",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "A2"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "APPENDIX B (for Q&A). If the same patient appears in both training and test data, performance looks better than it is. The Accuracy Laboratory refuses a predictions file when a patient spans partitions. The screenshot is a synthetic test file we built to show the refusal; it contains no results. Provenance: the application records the SHA-256 of the file and the declared model and dataset, labelled self-reported because it cannot verify them. Thresholds are chosen on validation data only; the test partition is used once."
+  },
+  {
+   "bg": "F7F2E8",
+   "elements": [
+    {
+     "type": "text",
+     "name": "txt-383",
+     "x": 56,
+     "y": 32,
+     "w": 760,
+     "h": 16,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "APPENDIX C · CURRENT STATUS AND LIMITATIONS"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-384",
+     "x": 56,
+     "y": 54,
+     "w": 780,
+     "h": 90,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Exactly what exists — and what does not."
+        }
+       ]
+      }
+     ],
+     "font": "Georgia",
+     "size": 31,
+     "color": "0A1A2C",
+     "lineSpacing": 0.95
+    },
+    {
+     "type": "rect",
+     "name": "shape-385",
+     "x": 56,
+     "y": 128,
+     "w": 198,
+     "h": 3,
+     "fill": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-386",
+     "x": 56,
+     "y": 138,
+     "w": 198,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "IMPLEMENTED"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2A665F"
+    },
+    {
+     "type": "text",
+     "name": "txt-387",
+     "x": 56,
+     "y": 172,
+     "w": 198,
+     "h": 190,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Entry, Workbench, EvidenceLens"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Diagnostic Duel · quality and stress test"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Clinician approval · review · CareBridge"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "English and Arabic interface"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 13,
+     "color": "3B4A5C",
+     "spaceAfter": 6
+    },
+    {
+     "type": "rect",
+     "name": "shape-388",
+     "x": 268,
+     "y": 128,
+     "w": 198,
+     "h": 3,
+     "fill": "8F6614"
+    },
+    {
+     "type": "text",
+     "name": "txt-389",
+     "x": 268,
+     "y": 138,
+     "w": 198,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "SYNTHETIC · EDUCATIONAL"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "8F6614"
+    },
+    {
+     "type": "text",
+     "name": "txt-390",
+     "x": 268,
+     "y": 172,
+     "w": 198,
+     "h": 190,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "16 retinal teaching illustrations"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Authored lesions → ICDR-derived labels"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Statistics simulator (stamped)"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Educational duel score"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 13,
+     "color": "3B4A5C",
+     "spaceAfter": 6
+    },
+    {
+     "type": "rect",
+     "name": "shape-391",
+     "x": 480,
+     "y": 128,
+     "w": 198,
+     "h": 3,
+     "fill": "2F6FB7"
+    },
+    {
+     "type": "text",
+     "name": "txt-392",
+     "x": 480,
+     "y": 138,
+     "w": 198,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "EVALUATION INFRASTRUCTURE"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "2F6FB7"
+    },
+    {
+     "type": "text",
+     "name": "txt-393",
+     "x": 480,
+     "y": 172,
+     "w": 198,
+     "h": 190,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Confusion matrix, sens/spec, PPV/NPV, AUC, Wilson CI"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Held-out import · leakage checks"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Validation-only thresholds"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "31 unit + 35 browser tests · CI"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 13,
+     "color": "3B4A5C",
+     "spaceAfter": 6
+    },
+    {
+     "type": "rect",
+     "name": "shape-394",
+     "x": 692,
+     "y": 128,
+     "w": 198,
+     "h": 3,
+     "fill": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-395",
+     "x": 692,
+     "y": 138,
+     "w": 198,
+     "h": 30,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "NOT IMPLEMENTED"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 11,
+     "color": "A94632"
+    },
+    {
+     "type": "text",
+     "name": "txt-396",
+     "x": 692,
+     "y": 172,
+     "w": 198,
+     "h": 190,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "Any trained diagnostic model"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Real-dataset evaluation"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Validated sensitivity / specificity"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Evidence of improved clinician accuracy"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 13,
+     "color": "3B4A5C",
+     "spaceAfter": 6
+    },
+    {
+     "type": "rect",
+     "name": "shape-397",
+     "x": 56,
+     "y": 372,
+     "w": 848,
+     "h": 126,
+     "fill": "FCFAF4",
+     "line": "CFC6B3"
+    },
+    {
+     "type": "text",
+     "name": "txt-398",
+     "x": 72,
+     "y": 380,
+     "w": 380,
+     "h": 110,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "REQUIRED BEFORE ANY CLINICAL USE",
+         "font": "Consolas",
+         "size": 10,
+         "color": "2A665F"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "Licensed data and ethics approval"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "External and prospective validation"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Clinician-supervised research"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Governance, security, regulatory review"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 13,
+     "color": "3B4A5C",
+     "spaceAfter": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-399",
+     "x": 496,
+     "y": 380,
+     "w": 400,
+     "h": 110,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "WHY IT IS NOT A MEDICAL DEVICE",
+         "font": "Consolas",
+         "size": 10,
+         "color": "A94632"
+        }
+       ]
+      },
+      {
+       "runs": [
+        {
+         "t": "No validated performance claim"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Synthetic cases only; no patient data"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Never produces a diagnosis or treatment advice"
+        }
+       ],
+       "bullet": true
+      },
+      {
+       "runs": [
+        {
+         "t": "Every decision is a human’s"
+        }
+       ],
+       "bullet": true
+      }
+     ],
+     "font": "Calibri",
+     "size": 13,
+     "color": "3B4A5C",
+     "spaceAfter": 3
+    },
+    {
+     "type": "text",
+     "name": "txt-400",
+     "x": 56,
+     "y": 514,
+     "w": 700,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "DIAGNOSTIC INTELLIGENCE LAB · AL DHAFRA HEALTH FORUM · EDUCATIONAL PROTOTYPE · NOT A MEDICAL DEVICE · APPENDIX"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B"
+    },
+    {
+     "type": "text",
+     "name": "txt-401",
+     "x": 864,
+     "y": 514,
+     "w": 40,
+     "h": 14,
+     "paras": [
+      {
+       "runs": [
+        {
+         "t": "A3"
+        }
+       ]
+      }
+     ],
+     "font": "Consolas",
+     "size": 10,
+     "color": "67707B",
+     "align": 3
+    }
+   ],
+   "notes": "APPENDIX C (for Q&A). Be direct. Implemented: the workflows and evaluation tools. Synthetic: the cases and their authored reference labels. Infrastructure: the evaluation engine that can score a future model. Not implemented: any model training. Required before any clinical use: licensed data and ethics approval, external and prospective validation, clinician-supervised research, governance and regulatory review. It is not a medical device."
+  }
+ ]
+}

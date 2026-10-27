@@ -46,7 +46,7 @@ Blur/brightness/contrast with live preview and live measured quality — **Imple
 | Bilingual EN/AR with RTL | Implemented | ≈ 420 strings per language with a parity test; Arabic not yet proof-read clinically |
 
 ## 10 · Presentation
-12 slides, built from real screenshots of this app — `presentation/Diagnostic-Intelligence-Lab.pptx` (rendered previews in `presentation/render/`). Slides carry honest status labels; no mock-ups of unimplemented features.
+15 slides (12 main + 3 appendix) built from screenshots captured from the published app — `presentation/Diagnostic-Intelligence-Lab-AlDhafra.pptx` and `.pdf` (previews in `presentation/preview/`; pack index in `presentation/README.md`). Slides carry honest status labels; no mock-ups of unimplemented features.
 
 ## Test results (final run)
 | Suite | Result |

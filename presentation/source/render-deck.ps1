@@ -9,7 +9,7 @@ param(
 $ErrorActionPreference = 'Stop'
 function RGBInt([string]$hex) { $r = [Convert]::ToInt32($hex.Substring(0, 2), 16); $g = [Convert]::ToInt32($hex.Substring(2, 2), 16); $b = [Convert]::ToInt32($hex.Substring(4, 2), 16); return $r + ($g * 256) + ($b * 65536) }
 $SpecPath = (Resolve-Path -LiteralPath $SpecPath).Path
-$RepoRoot = (Resolve-Path (Join-Path (Split-Path $SpecPath -Parent) '..')).Path
+$RepoRoot = (Resolve-Path (Join-Path (Split-Path $SpecPath -Parent) '..\..')).Path
 if (-not [System.IO.Path]::IsPathRooted($Out)) { $Out = Join-Path (Get-Location).Path $Out }
 if ($PngDir -ne '' -and -not [System.IO.Path]::IsPathRooted($PngDir)) { $PngDir = Join-Path (Get-Location).Path $PngDir }
 $spec = Get-Content -LiteralPath $SpecPath -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -48,7 +48,7 @@ foreach ($sd in $spec.slides) {
       }
       'line' {
         $s = $slide.Shapes.AddLine($e.x1, $e.y1, $e.x2, $e.y2)
-        $s.Line.ForeColor.RGB = (RGBInt $e.color); $s.Line.Weight = $e.weight; $s.Name = $e.name
+        $s.Line.ForeColor.RGB = (RGBInt $e.color); $s.Line.Weight = [single]$e.weight; $s.Name = $e.name
         if ($e.PSObject.Properties.Name -contains 'dash') { $s.Line.DashStyle = 4 }
         if ($e.PSObject.Properties.Name -contains 'arrow') { $s.Line.EndArrowheadStyle = 2; $s.Line.EndArrowheadLength = 2; $s.Line.EndArrowheadWidth = 2 }
         if ($e.PSObject.Properties.Name -contains 'dot') { $s.Line.BeginArrowheadStyle = 6; $s.Line.BeginArrowheadLength = 1; $s.Line.BeginArrowheadWidth = 1 }
@@ -89,7 +89,7 @@ foreach ($sd in $spec.slides) {
         $text = ($paras | ForEach-Object { ($_.runs | ForEach-Object { $_.t }) -join '' }) -join "`r"
         $tf.TextRange.Text = $text
         $tr = $tf.TextRange
-        $tr.Font.Name = $e.font; $tr.Font.NameComplexScript = 'Segoe UI'; $tr.Font.Size = $e.size; $tr.Font.Color.RGB = (RGBInt $e.color)
+        $tr.Font.Name = $e.font; $tr.Font.NameComplexScript = 'Segoe UI'; $tr.Font.Size = [single]$e.size; $tr.Font.Color.RGB = (RGBInt $e.color)
         if ($e.PSObject.Properties.Name -contains 'bold') { $tr.Font.Bold = [int]$e.bold }
         if ($e.PSObject.Properties.Name -contains 'italic') { $tr.Font.Italic = [int]$e.italic }
         $align = 1; if ($e.PSObject.Properties.Name -contains 'align') { $align = $e.align }
@@ -115,7 +115,7 @@ foreach ($sd in $spec.slides) {
               if ($r.PSObject.Properties.Name -contains 'italic') { $ch.Font.Italic = [int]$r.italic }
               if ($r.PSObject.Properties.Name -contains 'color') { $ch.Font.Color.RGB = (RGBInt $r.color) }
               if ($r.PSObject.Properties.Name -contains 'font') { $ch.Font.Name = $r.font }
-              if ($r.PSObject.Properties.Name -contains 'size') { $ch.Font.Size = $r.size }
+              if ($r.PSObject.Properties.Name -contains 'size') { $ch.Font.Size = [single]$r.size }
             }
             $pos += $len
           }

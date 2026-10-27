@@ -1,0 +1,105 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/workbench/C06/quality
+Captured: 2026-10-27T14:33:15.311Z
+Console errors: 0
+
+B — DIAGNOSTIC WORKBENCH
+
+Quality & uncertainty
+Switch case
+Case C01 · OD
+Case C02 · OS
+Case C03 · OD
+Case C04 · OS
+Case C05 · OD
+Case C06 · OS
+Case C07 · OD
+Case C08 · OS
+Case C09 · OD
+Case C10 · OS
+Case C11 · OD
+Case C12 · OD
+Case C13 · OS
+Case C14 · OD
+Case C15 · OS
+Case C16 · OS
+UNSEEN
+01
+Case selection
+Pick a case. Labels stay hidden.
+02
+EvidenceLens
+Zoom, layers, compare
+03
+Diagnostic Duel
+Read, lock, reveal
+04
+Quality & uncertainty
+Measured quality, stress test
+05
+Clinician approval
+Interpret, approve, refer
+
+RELIABILITY STRESS TEST
+
+Degrade this image and watch what changes. Only pixel effects are shown — no model confidence is invented.
+
+A
+ORIGINAL
+B
+TRANSFORMED (LIVE)
+BLUR (Σ PX)
+0.0
+BRIGHTNESS
+0%
+CONTRAST
+100%
+Defocus
+Under-exposed
+Washed-out
+Reset
+Quality adequate by prototype heuristics
+
+MODEL RESPONSE TO THE TRANSFORMED IMAGE
+
+Not available. No compatible research model is loaded, so none is run and nothing is estimated. Showing a confidence value here would be fabrication.
+
+LESION-REGION CONTRAST RETAINED
+
+Mean difference between each annotated region and its surroundings, relative to the original image. It measures pixels, not human or model performance.
+
+Locked until reference layers are open (lock an interpretation in the Duel, or enter Study Mode).
+
+IMAGE QUALITY — MEASURED FROM PIXELS
+
+Prototype heuristics tuned on the 16 teaching images. They are not validated gradability criteria.
+
+Adequate
+Sharpness
+RMS Laplacian of the green channel (focus)
+3.5
+Brightness
+Mean luminance inside the field, 0–255
+77
+Contrast
+Standard deviation of luminance
+32.6
+Illumination evenness
+1 = equal light across the four quadrants
+0.96
+Field coverage
+Share of the field that is not black
+1.00
+
+UNCERTAINTY REGISTER
+
+What limits confidence in this one case.
+
+One image of one eye, with no clinical history, no second field, no OCT. Real screening uses more.
+This is a synthetic teaching illustration. Real fundus photographs vary in ways that are not represented here (camera, pigmentation, media opacity, co-existing disease).
+The reference label is one authored standard. Inter-grader variability — a real source of uncertainty — is not quantified for this teaching set.
+
+WHAT THIS REVIEW DOES NOT TELL YOU
+
+It does not say what a model would predict — there is no model.
+It does not validate any clinical threshold.
+It does not replace a clinician’s decision.

@@ -1,0 +1,81 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/workbench/C06/duel
+Captured: 2026-10-27T14:33:07.718Z
+Console errors: 0
+
+B — DIAGNOSTIC WORKBENCH
+
+Diagnostic Duel
+Switch case
+Case C01 · OD
+Case C02 · OS
+Case C03 · OD
+Case C04 · OS
+Case C05 · OD
+Case C06 · OS
+Case C07 · OD
+Case C08 · OS
+Case C09 · OD
+Case C10 · OS
+Case C11 · OD
+Case C12 · OD
+Case C13 · OS
+Case C14 · OD
+Case C15 · OS
+Case C16 · OS
+UNSEEN
+01
+Case selection
+Pick a case. Labels stay hidden.
+02
+EvidenceLens
+Zoom, layers, compare
+03
+Diagnostic Duel
+Read, lock, reveal
+04
+Quality & uncertainty
+Measured quality, stress test
+05
+Clinician approval
+Interpret, approve, refer
+100%
+1 DD
+
+Scroll or pinch to zoom · drag to pan · +/− keys · 0 to fit · click an annotation for details
+
+STAGE 03 — DIAGNOSTIC DUEL
+
+Read it before you are told.
+
+Examine the image, record your screening interpretation, lock it — then see how it compares with the reference. No model exists in this prototype, so this is Human vs Reference.
+
+YOU
+—
+vs
+REFERENCE
+—
+MODEL
+not implemented
+OBSERVE
+RECORD
+LOCK
+MODEL
+REFERENCE
+COMPARE
+MEANING
+RECORD
+
+‎1 / 8‎ — OBSERVE
+
+IS THE IMAGE GOOD ENOUGH TO GRADE?
+Gradable
+Ungradable
+HOW CONFIDENT ARE YOU?
+Low
+Medium
+High
+Your screening decision
+—
+Lock interpretation — final
+
+You cannot change it after locking. Reference layers stay hidden until then.

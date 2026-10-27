@@ -1,0 +1,63 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/lab
+Captured: 2026-10-27T14:33:23.158Z
+Console errors: 0
+
+C — ACCURACY LABORATORY
+
+How accurate is the reading — measured, not claimed.
+
+A research workspace for evaluating diagnostic accuracy. It computes exact statistics from held-out predictions you provide, and never mixes them with simulations or with your own Duel record.
+
+REAL HELD-OUT PREDICTIONS (YOUR FILE)
+EDUCATIONAL SIMULATION (SYNTHETIC)
+YOUR DUEL RECORD (EDUCATIONAL)
+01
+Evaluation status
+02
+Evaluate
+03
+Thresholds
+04
+Error cases
+05
+Simulator
+06
+Dataset & limits
+MODEL-GENERATED PREDICTION
+No research model has been evaluated.
+
+This prototype contains no trained model, no labelled evaluation dataset and no compute environment. No sensitivity, specificity or confusion matrix here is a model result — unless you load a held-out predictions file, in which case the numbers carry that file’s provenance and nothing else.
+
+Import held-out predictions
+Open the simulator
+
+EVALUATION PROVENANCE
+
+No evaluation loaded.
+
+EVALUATION PROTOCOL — STATUS
+
+STEP	STATE	NOTE
+1.Task defined	
+DONE	Referable DR = ICDR moderate NPDR or worse, or suspected DME; ungradable images handled as a separate outcome.
+2.Dataset acquired, licence verified	
+NOT DONE	No dataset has been downloaded. Candidates are listed under Dataset & limits.
+3.Patient-level split manifest	
+NOT DONE	Cannot exist without a dataset. The Evaluate tab will refuse files where a patient spans partitions.
+4.Preprocessing documented	
+SPECIFIED ONLY	Specified in docs/EVALUATION_PROTOCOL.md (crop to field, resize, green-channel contrast). Not run.
+5.Model trained (transfer learning)	
+NOT DONE	Not trained. A documented ImageNet-pretrained CNN with a binary head is the specified approach.
+6.Threshold fixed on validation data only	
+SPECIFIED ONLY	Implemented in the statistics engine (and unit-tested); not exercised on real data.
+7.Test partition evaluated once	
+SPECIFIED ONLY	The Evaluate tab counts test evaluations so repeated peeking is visible.
+8.External validation	
+NOT DONE	Not done. Required before any claim about generalisation.
+
+WHAT IS IMPLEMENTED
+
+Confusion matrix, sensitivity, specificity, PPV, NPV, accuracy, AUC and Wilson 95 % intervals — unit-tested against hand-checked tables.
+Held-out import with patient-level leakage, duplicate and split checks that block reporting.
+Threshold selection on validation data only, applied once to the test partition.
+An educational simulator, labelled as such.

@@ -4,7 +4,7 @@
 
 A student research prototype on **how accurately a diagnosis is read from an image** — starting with *referable diabetic retinopathy* in retinal fundus images. Bilingual (English / العربية, RTL), runs entirely in the browser, no accounts, no uploads, no tracking.
 
-**Live prototype:** <https://maymourad.github.io/Diagnostic-Intelligence-Lab/> · **Slides:** [`presentation/Diagnostic-Intelligence-Lab.pptx`](presentation/Diagnostic-Intelligence-Lab.pptx)
+**Live prototype:** <https://maymourad.github.io/Diagnostic-Intelligence-Lab/> · **Slides:** [`presentation/Diagnostic-Intelligence-Lab-AlDhafra.pptx`](presentation/Diagnostic-Intelligence-Lab-AlDhafra.pptx)
 
 **Team:** May Ahmed Mourad (G12) · Shamsa Faris Almazrouei (G12) · Fatima Mohamed Almazrouei (G11) — ADNOC Schools, Madinat Zayed. A student project: no endorsement by ADNOC or ADNOC Schools is implied.
 
@@ -43,7 +43,7 @@ ES modules cannot load from `file://`, so a static server is required. The only 
 | Simulator | **Synthetic**, labelled and stamped; never mixed with real or learner data |
 | Arabic text | Complete, but **not yet proof-read** by a clinical translator |
 
-**Slide deck:** [`presentation/Diagnostic-Intelligence-Lab.pptx`](presentation/Diagnostic-Intelligence-Lab.pptx) (12 slides built from real screenshots; slide previews in `presentation/render/`). Rebuild on Windows with PowerPoint: `node presentation/build-spec.mjs` then `./presentation/render-deck.ps1 -SpecPath presentation/spec.json -Out presentation/Diagnostic-Intelligence-Lab.pptx -PngDir presentation/render`.
+**Presentation pack (Al Dhafra Health Forum):** [`presentation/`](presentation/README.md) — editable 15-slide `.pptx` (12 main + 3 appendix, speaker notes on every slide), matching PDF, speaker script, live-demo script, judge Q&A, sources and backup screenshots. Every screenshot is captured from the published prototype; slide previews are in `presentation/preview/`.
 
 Next step toward real results: [`docs/DATASET_PLAN.md`](docs/DATASET_PLAN.md).
 

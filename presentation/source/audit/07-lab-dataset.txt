@@ -1,0 +1,67 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/lab/dataset
+Captured: 2026-10-27T14:33:46.128Z
+Console errors: 0
+
+C — ACCURACY LABORATORY
+
+How accurate is the reading — measured, not claimed.
+
+A research workspace for evaluating diagnostic accuracy. It computes exact statistics from held-out predictions you provide, and never mixes them with simulations or with your own Duel record.
+
+REAL HELD-OUT PREDICTIONS (YOUR FILE)
+EDUCATIONAL SIMULATION (SYNTHETIC)
+YOUR DUEL RECORD (EDUCATIONAL)
+01
+Evaluation status
+02
+Evaluate
+03
+Thresholds
+04
+Error cases
+05
+Simulator
+06
+Dataset & limits
+Dataset, provenance and limitations
+
+TEACHING SET IN THIS PROTOTYPE
+
+Identifier
+DIL-TS-v0
+Kind
+Synthetic teaching illustrations drawn by code — not patient images
+Cases
+16
+Task
+Referable diabetic retinopathy (ICDR ≥ moderate NPDR, or suspected DME)
+Reference standard
+Authored by construction from the lesion list under the ICDR 5-level scale; not an independent expert panel
+Patient-level grouping
+Not applicable (no patients)
+Composition
+8 referable · 6 non-referable · 2 ungradable
+
+CANDIDATE PUBLIC RESEARCH DATASETS
+
+Described as publicly documented; sizes are approximate. Nothing has been downloaded. Check each licence and terms before use.
+
+DATASET	SIZE	LABELS	PATIENT GROUPING	LEAKAGE NOTE
+APTOS 2019 (Aravind, Kaggle)	≈ 3.7 k labelled images	5-level DR grade	No patient id published	Only image-level splits are possible; patient-level leakage cannot be controlled.
+EyePACS (Kaggle DR 2015)	≈ 35 k training images	5-level DR grade	Patient and eye in file name	Group by patient (left/right eyes share one patient) before splitting.
+Messidor-2	≈ 1.7 k images, paired eyes	DR grade, DME risk (grades published separately)	Paired images per subject	Keep both eyes of a subject in the same partition.
+IDRiD	≈ 0.5 k images	DR + DME grades; pixel-level lesion masks on a subset	Not specified for splitting	Small; useful for lesion-level evaluation, not for a stand-alone accuracy claim.
+
+LIMITATIONS A REAL MODEL WOULD CARRY
+
+Domain shift: a model trained on one camera or clinic may fail on another.
+Population shift: pigmentation, age and co-morbidity differ between datasets and sites.
+Prevalence shift: PPV changes with the screened population even if sensitivity does not.
+Reference-label noise: expert graders disagree; the “truth” is itself uncertain.
+Ungradable images: a model must be able to return “no result”; forcing a grade is unsafe.
+Automation bias: clinicians may over-trust a displayed score. This must be studied, not assumed away.
+Calibration: a score of 0.8 does not mean 80 % unless calibration is checked.
+No evidence from this project that AI improves clinician diagnostic accuracy.
+Evaluation provenance of this site
+
+Statistics engine: js/lib/metrics.js · version 0.2.0 · unit-tested. Protocol: docs/EVALUATION_PROTOCOL.md. Teaching images: js/lib/fundus.js + fundus-paint.js (deterministic; seeds in js/data/cases.js).

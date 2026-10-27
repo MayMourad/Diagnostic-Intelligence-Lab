@@ -1,0 +1,24 @@
+URL: https://maymourad.github.io/Diagnostic-Intelligence-Lab/#/carebridge
+Captured: 2026-10-27T14:33:57.776Z
+Console errors: 0
+
+SUPPORTING · CAREBRIDGE
+
+From approved decision to referral.
+
+CareBridge drafts a referral letter only after a reviewer has approved a “refer” disposition. It never decides; it carries a human decision forward.
+
+No approved referrals yet
+
+Approve a “refer” or “urgent” disposition in the Workbench (stage 05) and it will appear here.
+
+Open the Workbench
+
+WHAT A GOOD REFERRAL CONTAINS
+
+Reason for referral in one sentence
+Which eye(s), and the findings that matter
+Urgency and why
+Image quality, so the receiver knows how far to trust the photograph
+Who approved the decision — and that a human did
+Nothing identifying in a free-text field that is not needed
