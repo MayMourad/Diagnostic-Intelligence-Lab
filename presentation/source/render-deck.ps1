@@ -3,7 +3,8 @@
 param(
   [Parameter(Mandatory = $true)][string]$SpecPath,
   [Parameter(Mandatory = $true)][string]$Out,
-  [string]$PngDir = ''
+  [string]$PngDir = '',
+  [string]$PdfOut = ''
 )
 $ErrorActionPreference = 'Stop'
 function RGBInt([string]$hex) { $r = [Convert]::ToInt32($hex.Substring(0, 2), 16); $g = [Convert]::ToInt32($hex.Substring(2, 2), 16); $b = [Convert]::ToInt32($hex.Substring(4, 2), 16); return $r + ($g * 256) + ($b * 65536) }
@@ -41,12 +42,16 @@ foreach ($sd in $spec.slides) {
       }
       'ellipse' {
         $s = $slide.Shapes.AddShape(9, $e.x, $e.y, $e.w, $e.h)
-        $s.Fill.ForeColor.RGB = (RGBInt $e.fill); $s.Line.Visible = 0; $s.Name = $e.name; $s.Shadow.Visible = 0
+        if ($e.PSObject.Properties.Name -contains 'fill') { $s.Fill.ForeColor.RGB = (RGBInt $e.fill) } else { $s.Fill.Visible = 0 }
+        if ($e.PSObject.Properties.Name -contains 'line') { $s.Line.Visible = -1; $s.Line.ForeColor.RGB = (RGBInt $e.line); $s.Line.Weight = 1; if ($e.PSObject.Properties.Name -contains 'dash') { $s.Line.DashStyle = 4 } } else { $s.Line.Visible = 0 }
+        $s.Name = $e.name; $s.Shadow.Visible = 0
       }
       'line' {
         $s = $slide.Shapes.AddLine($e.x1, $e.y1, $e.x2, $e.y2)
         $s.Line.ForeColor.RGB = (RGBInt $e.color); $s.Line.Weight = $e.weight; $s.Name = $e.name
         if ($e.PSObject.Properties.Name -contains 'dash') { $s.Line.DashStyle = 4 }
+        if ($e.PSObject.Properties.Name -contains 'arrow') { $s.Line.EndArrowheadStyle = 2; $s.Line.EndArrowheadLength = 2; $s.Line.EndArrowheadWidth = 2 }
+        if ($e.PSObject.Properties.Name -contains 'dot') { $s.Line.BeginArrowheadStyle = 6; $s.Line.BeginArrowheadLength = 1; $s.Line.BeginArrowheadWidth = 1 }
       }
       'img' {
         $imgPath = $e.path; if (-not [System.IO.Path]::IsPathRooted($imgPath)) { $imgPath = Join-Path $RepoRoot $imgPath }
@@ -65,6 +70,7 @@ foreach ($sd in $spec.slides) {
         $c.ShapeWidth = [single]$shapeW; $c.ShapeHeight = [single]$shapeH
         $c.PictureOffsetX = [single]($pw / 2 - $cl * $pw - $shapeW / 2)
         $c.PictureOffsetY = [single]($ph / 2 - $ct * $ph - $shapeH / 2)
+        if ($e.PSObject.Properties.Name -contains 'oval') { $s.AutoShapeType = 9 }
         $s.Left = [single]$e.x; $s.Top = [single]$e.y
         if ($e.PSObject.Properties.Name -contains 'border') { $s.Line.Visible = -1; $s.Line.ForeColor.RGB = (RGBInt $e.border); $s.Line.Weight = 0.75 }
         $s.AlternativeText = $e.alt
@@ -83,7 +89,7 @@ foreach ($sd in $spec.slides) {
         $text = ($paras | ForEach-Object { ($_.runs | ForEach-Object { $_.t }) -join '' }) -join "`r"
         $tf.TextRange.Text = $text
         $tr = $tf.TextRange
-        $tr.Font.Name = $e.font; $tr.Font.Size = $e.size; $tr.Font.Color.RGB = (RGBInt $e.color)
+        $tr.Font.Name = $e.font; $tr.Font.NameComplexScript = 'Segoe UI'; $tr.Font.Size = $e.size; $tr.Font.Color.RGB = (RGBInt $e.color)
         if ($e.PSObject.Properties.Name -contains 'bold') { $tr.Font.Bold = [int]$e.bold }
         if ($e.PSObject.Properties.Name -contains 'italic') { $tr.Font.Italic = [int]$e.italic }
         $align = 1; if ($e.PSObject.Properties.Name -contains 'align') { $align = $e.align }
@@ -115,6 +121,7 @@ foreach ($sd in $spec.slides) {
           }
           $pos += 1
         }
+        if ($e.PSObject.Properties.Name -contains 'link') { $tf.TextRange.ActionSettings(1).Hyperlink.Address = $e.link }
         $s.Name = $e.name
         $bh = $tf.TextRange.BoundHeight
         if ($bh -gt ($e.h + 1)) { $warnings += ("slide {0} text '{1}' overflows: needs {2:N0}pt, box {3:N0}pt" -f $n, $e.name, $bh, $e.h) }
@@ -122,10 +129,12 @@ foreach ($sd in $spec.slides) {
     }
     } catch { $warnings += ("slide {0} element {1} FAILED: {2} [line {3}] {4}" -f $n, $e.name, $_.Exception.Message, $_.InvocationInfo.ScriptLineNumber, $_.InvocationInfo.Line.Trim()) }
   }
+  $slide.SlideShowTransition.EntryEffect = 3849; $slide.SlideShowTransition.Duration = 0.4
   if ($sd.PSObject.Properties.Name -contains 'notes') { $slide.NotesPage.Shapes.Placeholders(2).TextFrame.TextRange.Text = $sd.notes }
 }
 try { $pres.BuiltInDocumentProperties.Item('Title').Value = 'Diagnostic Intelligence Lab (provisional title)'; $pres.BuiltInDocumentProperties.Item('Author').Value = 'Diagnostic Intelligence Lab student team'; $pres.BuiltInDocumentProperties.Item('Company').Value = '' } catch { }
 $pres.SaveAs($Out)
+if ($PdfOut -ne '') { if (-not [System.IO.Path]::IsPathRooted($PdfOut)) { $PdfOut = Join-Path (Get-Location).Path $PdfOut }; $pres.SaveCopyAs($PdfOut, 32) }
 if ($PngDir -ne '') {
   New-Item -ItemType Directory -Force -Path $PngDir | Out-Null
   $i = 0
